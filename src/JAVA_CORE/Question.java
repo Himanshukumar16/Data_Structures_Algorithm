@@ -1,5 +1,6 @@
 package JAVA_CORE;
 public class Question {
+
     private String num ;
     private String question ;
     private String opt_1;
