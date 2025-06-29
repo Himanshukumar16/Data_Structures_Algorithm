@@ -1,4 +1,4 @@
-package JAVA_CORE;
+package JAVA_PRACTICE_PROJECT_1;
 import java.util.*;
 public class QuestionService {
 

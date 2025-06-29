@@ -1,4 +1,4 @@
-package JAVA_CORE;
+package JAVA_PRACTICE_PROJECT_1;
 public class Project_1 {
     public static void main(String[] args) {
 
