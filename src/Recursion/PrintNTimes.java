@@ -3,11 +3,11 @@
 package Recursion;
 public class PrintNTimes {
     public static void main(String[] args) {
-        PrintNTime r = new PrintNTime();
+        PrintTime r = new PrintTime();
         r.recur(10);
     }
 }
-class PrintNTime {
+class PrintTime {
     int num = 0;
     public void recur(int n){
         if(num == n){

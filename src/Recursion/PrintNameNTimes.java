@@ -1,3 +1,4 @@
+// Print Name N Times
 package Recursion;
 public class PrintNameNTimes {
     public static void main(String[] args) {
@@ -6,13 +7,11 @@ public class PrintNameNTimes {
     }
 }
 class PrintName {
-    int num = 0;
     public void recur(int n){
-        if(num == n){
+        if(0 == n){
             return;
         }
         System.out.println("Himanshu kumar!");
-        num++;
-        recur(n);
+        recur(n-1);
     }
 }
