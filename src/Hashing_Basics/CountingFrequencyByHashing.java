@@ -1,4 +1,5 @@
-// Hashing Basics.
+// Hashing Basics..
+// Counting Frequency By Hashing...
 package Hashing_Basics;
 import java.util.*;
 public class CountingFrequencyByHashing {
