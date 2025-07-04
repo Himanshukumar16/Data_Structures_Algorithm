@@ -38,5 +38,6 @@ public class CharacterHashing {
 //
 //        int ch = sc.next().charAt(0);
 //        System.out.println(arr[ch-'a']);
+
     }
 }
