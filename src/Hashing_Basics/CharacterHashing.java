@@ -28,7 +28,7 @@ public class CharacterHashing {
 
 //        String s = sc.next();
 //        String str = s.toLowerCase();
-//        int[]arr = new int[27];
+//        int[]arr = new int[26];
 //
 //        for(int i = 0; i < str.length(); i++){
 //
