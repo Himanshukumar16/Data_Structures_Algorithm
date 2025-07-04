@@ -23,5 +23,20 @@ public class CharacterHashing {
 
         System.out.println(count);
 */
+
+////        Optimal approach:
+
+//        String s = sc.next();
+//        String str = s.toLowerCase();
+//        int[]arr = new int[27];
+//
+//        for(int i = 0; i < str.length(); i++){
+//
+//            arr[str.charAt(i)-'a'] += 1;
+//
+//        }
+//
+//        int ch = sc.next().charAt(0);
+//        System.out.println(arr[ch-'a']);
     }
 }
