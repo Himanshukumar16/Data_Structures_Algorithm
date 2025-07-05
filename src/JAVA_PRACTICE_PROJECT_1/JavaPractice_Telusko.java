@@ -1,6 +1,10 @@
 // Just For Practice Java Core Coding - Telusko...
 package JAVA_PRACTICE_PROJECT_1;
+
+import java.util.Scanner;
+
 public class JavaPractice_Telusko {
+    Scanner sc = new Scanner(System.in);
 //    public static void main(String[] args) {
 
 ////        Abstract Keyword.
@@ -94,9 +98,15 @@ public class JavaPractice_Telusko {
 //    }
 //}
 //-----------------------------------------------------------------------------------
+//    Enums...
     public static void main(String[] args) {
 
     }
+}
+enum Names{
+    Himanshu(),Chotu(),Anurag(),Ritika();
+    private int price;
+
 }
 
 
