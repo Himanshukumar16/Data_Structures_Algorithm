@@ -99,14 +99,71 @@ public class JavaPractice_Telusko {
 //}
 //-----------------------------------------------------------------------------------
 //    Enums...
+//    public static void main(String[] args) {
+//        Names name = Names.Himanshu;
+//        System.out.println(name.getMarks());
+//        name.setMarks(500);
+//        System.out.println(name.getMarks());
+//
+//    }
+//}
+//enum Names{
+//    Himanshu(400),Chootu(200),Anurag(500),Ritika(300);
+//    private int marks;
+//    private Names(int marks){
+//        this.marks = marks;
+//    }
+//    public int getMarks() {
+//        return marks;
+//    }
+//    public void setMarks(int marks) {
+//        this.marks = marks;
+//    }
+//}
+//-----------------------------------------------------------------------------------
+
+//    problem solution:
+
+//    public static void main(String[] args) {
+//        Machine fan = new Fan("Fan");
+//        Machine washer = new WashingMachine("Washing Machine");
+//        System.out.println(fan.start());
+//        System.out.println(washer.start());
+//    }
+//}
+//interface Machine{
+//    public String start();
+//}
+//
+//abstract class Appliance implements Machine{
+//    String name;
+//
+//    public Appliance(String name){
+//        this.name = name;
+//    }
+//}
+//class Fan extends Appliance{
+//
+//    public Fan(String name) {
+//        super(name);
+//    }
+//
+//    @Override
+//    public String start() {
+//        return "Fan is running";
+//    }
+//}
+//class WashingMachine extends Appliance{
+//
+//    public WashingMachine(String name) {
+//        super(name);
+//    }
+//
+//    @Override
+//    public String start() {
+//        return "Washing Machine is operating";
+//    }
     public static void main(String[] args) {
 
     }
 }
-enum Names{
-    Himanshu(),Chotu(),Anurag(),Ritika();
-    private int price;
-
-}
-
-
