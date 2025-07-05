@@ -132,13 +132,13 @@ public class JavaPractice_Telusko {
 //    }
 //}
 //interface Machine{
-//    public String start();
+//    String start();
 //}
 //
 //abstract class Appliance implements Machine{
 //    String name;
 //
-//    public Appliance(String name){
+//    Appliance(String name){
 //        this.name = name;
 //    }
 //}
@@ -163,6 +163,34 @@ public class JavaPractice_Telusko {
 //    public String start() {
 //        return "Washing Machine is operating";
 //    }
+//-----------------------------------------------------------------------------------------------
+//    public static void main(String[] args) {
+//        A obj = (int i) ->
+//            System.out.println("Hello !"); // Lambda Expression.
+//        obj.show(5);
+//        A obj = (String n) ->{
+//            return n;
+//        };
+//        System.out.println(obj.show("this is a sample code !"));
+//    }
+//}
+//@FunctionalInterface
+//interface A{
+//    String show(String i);
+//}
+//-------------------------------------------------------------------------------------------------
+
+//    public static void main(String[] args) {
+//        int i = 0;
+//        int j = 4;
+//        try{
+//            j = 20/i;
+//        }catch (Exception e){
+//            System.out.println("something went wrong !");
+//        }
+//        System.out.println(j);
+//    }
+//---------------------------------------------------------------------------------------------------
     public static void main(String[] args) {
 
     }
