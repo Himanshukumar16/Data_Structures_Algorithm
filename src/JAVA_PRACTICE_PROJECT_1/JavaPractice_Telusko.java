@@ -1,7 +1,7 @@
 // Just For Practice Java Core Coding - Telusko...
 package JAVA_PRACTICE_PROJECT_1;
-
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Stream;
 
 public class JavaPractice_Telusko {
     Scanner sc = new Scanner(System.in);
@@ -266,6 +266,32 @@ public class JavaPractice_Telusko {
 //}
 //----------------------------------------------------------------------------------------------------
     public static void main(String[] args) {
+//        List<String> list = new ArrayList<>();
+//        list.add("hello");
+//        list.add("This");
+//        list.add("is");
+//        list.add("a");
+//        list.add("sample");
+//        list.add("code");
+//        Comparator <String> com = (o1,o2) -> o1.length() < o2.length() ? 1 : -1;
+//        Collections.sort(list,com);
+//        System.out.println(list);
+//-------------------------------------------------------------------------------------------------
+//        List<String> names = Arrays.asList("Alice", "Bob", "Alice", "David", "Bob");
+//        System.out.println("Original List: "+names);
+//        Set<String> newName = new LinkedHashSet<>();
+//        for(String s : names){
+//            newName.add(s);
+//        }
+//        System.out.println("Unique Names: "+newName);
 
+        List<String> products = Arrays.asList("Laptop", "Pen", "Notebook", "Headphones", "Smartphone");
+
+        // TODO: Print the original list
+        System.out.println("Original List:  "+products);
+
+        // TODO: Filter names longer than 5 characters, convert to uppercase, sort, and collect into a list
+
+        // TODO: Print the filtered list
     }
 }
