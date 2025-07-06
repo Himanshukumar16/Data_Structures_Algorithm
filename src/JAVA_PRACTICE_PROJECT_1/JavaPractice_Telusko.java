@@ -285,13 +285,5 @@ public class JavaPractice_Telusko {
 //        }
 //        System.out.println("Unique Names: "+newName);
 
-        List<String> products = Arrays.asList("Laptop", "Pen", "Notebook", "Headphones", "Smartphone");
-
-        // TODO: Print the original list
-        System.out.println("Original List:  "+products);
-
-        // TODO: Filter names longer than 5 characters, convert to uppercase, sort, and collect into a list
-
-        // TODO: Print the filtered list
     }
 }
