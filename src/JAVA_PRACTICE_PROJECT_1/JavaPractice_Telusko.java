@@ -180,7 +180,7 @@ public class JavaPractice_Telusko {
 //}
 //-------------------------------------------------------------------------------------------------
 
-//    public static void main(String[] args) {
+    //    public static void main(String[] args) {
 //        int i = 0;
 //        int j = 4;
 //        try{
@@ -191,6 +191,80 @@ public class JavaPractice_Telusko {
 //        System.out.println(j);
 //    }
 //---------------------------------------------------------------------------------------------------
+//    public static void main(String[] args) {
+//        InvalidAgeException e = new InvalidAgeException();
+//        try{
+//            e.checkAge(16);
+//        }
+//        catch(Exception ex){
+//            System.out.println("Exception Caught: Age must be 18 or older");
+//        }
+//        try {
+//            e.checkAge(21);
+//        }catch (Exception ex){
+//            System.out.println("Exception Caught: Age must be 18 or older");
+//        }
+//    }
+//}
+//class InvalidAgeException extends Exception{
+//    public void checkAge(int age) throws InvalidAgeException{
+//        if(age < 18) {
+//            throw new InvalidAgeException();
+//        }
+//        else{
+//            System.out.println("Access granted");
+//        }
+//    }
+//}
+//------------------------------------------------------------------------------------------------------------
+//    public static void main(String[] args) {
+//        Mythread1 obj = new Mythread1();
+//        Mythread2 obj2 = new Mythread2();
+////        for(int i = 1; i <= 10; i++){
+//            obj.start();
+//            obj2.start();
+//            System.out.println(obj.setPriority());
+//            System.out.println(obj2.getPriority());
+////        }
+//    }
+//}
+//class Mythread1 extends Thread{
+//    public void run(){
+//        for (int j = 0; j <= 100; j++) {
+//            System.out.println("Hello ! ");
+//        }
+//    }
+//}
+//class Mythread2 extends Thread{
+//    public void run(){
+//        for (int j = 0; j <= 100; j++) {
+//            System.out.println("Hey ! ");
+//        }
+//    }
+//}
+//---------------------------------------------------------------------------------------------------
+//    public static void main(String[] args) {
+//        PrinterTask pt = new PrinterTask();
+//        Thread t1 = new Thread(pt,"Worker-1");
+//        Thread t2 = new Thread(pt,"Worker-2");
+//        t1.start();
+//        t2.start();
+//        try{
+//            t1.join();
+//            t2.join();
+//        }catch (Exception e){}
+//    }
+//}
+//class PrinterTask implements Runnable{
+//    @Override
+//    public void run() {
+//        String threadName = Thread.currentThread().getName();
+//        for(int i = 1; i <= 5; i++){
+//            System.out.println(threadName+": Running task "+i);
+//        }
+//    }
+//}
+//----------------------------------------------------------------------------------------------------
     public static void main(String[] args) {
 
     }
