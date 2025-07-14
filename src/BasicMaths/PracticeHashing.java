@@ -7,7 +7,7 @@ public class PracticeHashing {
         String[] str = {"a","b","c","a","c","d","a"};
         j.countFrequencies(num);
         j.countFrequencies(str);
-        j.countFrequencies(-1);
+
     }
 }
 class jawab{
