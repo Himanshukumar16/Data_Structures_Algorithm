@@ -3,11 +3,13 @@ import java.util.*;
 public class PracticeHashing {
     public static void main(String[] args) {
         jawab j = new jawab();
-        int[] num = {2,2,2,2,3,3,3,3,1,1,1,1,1,3,3,3,4,4,5};
+        int[] num = {2,3,9,9};
         String[] str = {"a","b","c","a","c","d","a"};
         j.countFrequencies(num);
         j.countFrequencies(str);
-
+        String one = "Coding";
+        String two = "Chaf";
+        System.out.println(one + two.replace('a','e'));
     }
 }
 class jawab{
