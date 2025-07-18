@@ -3,40 +3,27 @@ import java.util.*;
 public class Plus_One_Leetcode {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        String s = "yes";
-        while (t > 0) {
-            int avg = 0;
-            int count = 0;
-            int n = sc.nextInt();
-            for (int i = 1; i <= n; i++) {
-                int a = sc.nextInt();
-                count++;
-                if (i == 1 && a < 40) {
-                    s = "No";
-                    break;
-                }
-                avg += a;
-                System.out.println("count"+count);
-                System.out.println("avg"+avg);
-            }
-            t--;
-            if((avg/count) >= 40) {
-                s = "Yes";
-            }else{
-                s = "no";
-            }
-            System.out.println(s);
-
+        int n = 19;
+        int square = 0;
+        int rev = 0;
+        solve s = new solve();
+        s.loop(n);
+        while(square != 0){
+            n = square;
         }
+        System.out.println(square==1);
     }
 }
-//4
-//        2
-//        0 100
-//        3
-//        41 39 40
-//        4
-//        41 41 28 100
-//        1
-//        100
+class solve{
+    public int loop(int n) {
+        int square = 0;
+        int rev = 0;
+        while (n != 0) {
+            int last = n % 10;
+            rev = (rev * 10) + last;
+            square += (int) Math.pow(last, 2);
+            n = n / 10;
+        }
+        return n;
+    }
+}
