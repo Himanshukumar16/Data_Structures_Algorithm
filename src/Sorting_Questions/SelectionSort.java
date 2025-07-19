@@ -1,4 +1,4 @@
-// Selection sort !
+// Selection sort -> finding smaller and adding at start.
 package Sorting_Questions;
 public class SelectionSort {
     public static void main(String[] args) {
