@@ -10,6 +10,7 @@ public class Plus_One_Leetcode {
         s.loop(n);
         while(square != 0){
             n = square;
+            s.loop(n);
         }
         System.out.println(square==1);
     }
