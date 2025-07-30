@@ -1,4 +1,5 @@
 package SelfPractice.GFG_Questions;
 
-public class main {
+public class BasicMaths_3 {
+
 }
