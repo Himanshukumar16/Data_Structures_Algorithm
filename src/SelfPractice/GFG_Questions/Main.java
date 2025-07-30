@@ -1,7 +1,5 @@
 package SelfPractice.GFG_Questions;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 ////        BasicMaths_1
@@ -13,7 +11,7 @@ public class Main {
 //        obj.fibonacciNumbers(5);
 
 ////        BasicMaths_3
-        BasicMaths_3 obj = new BasicMaths_3();
+//        BasicMaths_3 obj = new BasicMaths_3();
 
     }
 }
