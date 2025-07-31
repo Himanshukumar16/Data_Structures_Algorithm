@@ -11,7 +11,7 @@ public class Main {
 //        obj.fibonacciNumbers(5);
 
 ////        BasicMaths_3
-//        BasicMaths_3 obj = new BasicMaths_3();
-
+        BasicMaths_3 obj = new BasicMaths_3();
+        obj.gcdAndLcm();
     }
 }
