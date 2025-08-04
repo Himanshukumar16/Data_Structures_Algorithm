@@ -1,6 +1,6 @@
 // takes element and places it in its correct order !
 // Time complexity : O(N^2)
-package Sorting_Questions;
+package Sorting_Part_1;
 
 public class InsertionSort {
     public static void main(String[] args) {

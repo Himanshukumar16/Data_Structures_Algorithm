@@ -1,6 +1,6 @@
 //Bubble sort -> finding max and adding at last by adjacent swapping.
 // Time complexity: O(N^2)
-package Sorting_Questions;
+package Sorting_Part_1;
 public class BubbleSort {
     public static void main(String[] args) {
 

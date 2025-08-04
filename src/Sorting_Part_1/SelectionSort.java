@@ -1,5 +1,5 @@
 // Selection sort -> finding smaller and adding at start.
-package Sorting_Questions;
+package Sorting_Part_1;
 public class SelectionSort {
     public static void main(String[] args) {
 // time complexity -> O(n^2);
