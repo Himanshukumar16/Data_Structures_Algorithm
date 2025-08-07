@@ -4,7 +4,7 @@ public class RecursiveBubbleSort {
     public static void main(String[] args) {
         Recur r = new Recur();
         int[] arr = {151, 414, 163, 512, 911};
-        r.recur(arr, arr.length);
+        r.reBubble(arr, arr.length);
         for (int i : arr) {
             System.out.println(i);
         }
@@ -12,7 +12,7 @@ public class RecursiveBubbleSort {
 }
 
 class Recur {
-    public void recur(int[] arr, int length) {
+    public void reBubble(int[] arr, int length) {
         if (length == 1) {
             return;
         }
@@ -23,6 +23,6 @@ class Recur {
                 arr[i + 1] = temp;
             }
         }
-        recur(arr, length - 1);
+        reBubble(arr, length - 1);
     }
 }
