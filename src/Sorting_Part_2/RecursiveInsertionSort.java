@@ -2,26 +2,27 @@ package Sorting_Part_2;
 
 public class RecursiveInsertionSort {
     public static void main(String[] args) {
-        int []arr = {10,6,9,5,4,1};
+        int[] arr = {10, 6, 9, 5, 4, 1};
         Rec r = new Rec();
-        r.rec(arr,arr.length-1);
-        for(int i : arr){
+        r.rec(arr, 0, arr.length);
+        for (int i : arr) {
             System.out.println(i);
         }
     }
 }
-class Rec{
-    public void rec(int[] arr, int ptr){
-        if(ptr < 1){
+
+class Rec {
+    public void rec(int[] arr, int i, int n) {
+        if (i == n) {
             return;
         }
-        int j = ptr;
-        while(j > 0 && arr[j] < arr[j-1]){
-            int temp = arr[j];
-            arr[j] = arr[j-1];
-            arr[j-1] = temp;
+        int j = i;
+        while (j > 0 && arr[j - 1] > arr[j]) {
+            int temp = arr[j - 1];
+            arr[j - 1] = arr[j];
+            arr[j] = temp;
             j--;
         }
-        rec(arr , ptr-1);
+        rec(arr, i + 1, n);
     }
 }
