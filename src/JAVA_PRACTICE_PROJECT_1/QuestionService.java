@@ -1,10 +1,15 @@
 package JAVA_PRACTICE_PROJECT_1;
+import javax.swing.*;
 import java.util.*;
-public class QuestionService {
+public class QuestionService extends JFrame {
 
     Question[] q = new Question[5];
     String[] ans = new String[5];
     int score = 0;
+
+    JLabel frame = new JLabel();
+
+
 
     public QuestionService() {
 

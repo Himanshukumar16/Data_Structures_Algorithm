@@ -1,5 +1,7 @@
 package JAVA_PRACTICE_PROJECT_1;
-public class Question {
+import javax.swing.*;
+
+public class Question extends JFrame {
 
     private String num ;
     private String question ;
@@ -17,6 +19,8 @@ public class Question {
         this.opt_3 = opt_3;
         this.opt_4 = opt_4;
         this.correct = correct;
+        JLabel frame = new JLabel();
+
     }
 
     public String getNum() {
@@ -46,4 +50,5 @@ public class Question {
     public String getCorrect() {
         return correct;
     }
+
 }
