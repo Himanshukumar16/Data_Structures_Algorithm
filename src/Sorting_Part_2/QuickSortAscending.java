@@ -1,3 +1,4 @@
+// tc -> O(NlogN); sc -> O(1).
 package Sorting_Part_2;
 
 public class QuickSortAscending {
