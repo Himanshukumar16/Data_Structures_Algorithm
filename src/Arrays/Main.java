@@ -12,8 +12,8 @@ public class Main {
 //        sl.secondLargest(new int[]{3, 2, 1, 4, 6, 5});
 
 //        Question 3 :
-//        IsSortedOrNot is = new IsSortedOrNot();
-//        System.out.println(is.isSorted(new int[]{0,2,5,9,70}));
+        IsSortedOrNot is = new IsSortedOrNot();
+        System.out.println(is.isSorted(new int[]{0,2,5,9,70}));
 
 //        Question 4 :
 //        RemoveDuplicateFromSortedArray d = new RemoveDuplicateFromSortedArray();
