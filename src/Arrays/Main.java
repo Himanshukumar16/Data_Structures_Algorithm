@@ -1,5 +1,4 @@
 package Arrays;
-
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,11 @@ public class Main {
 //        sl.secondLargest(new int[]{11,22,33,44,55,66,852});
 
 //        Question 3 :
-        IsSortedOrNot is = new IsSortedOrNot();
-        System.out.println(is.isSorted(new int[]{0,2,5,9,70}));
+//        IsSortedOrNot is = new IsSortedOrNot();
+//        System.out.println(is.isSorted(new int[]{0,2,5,9,70}));
+
+//        Question 4 :
+        RemoveDuplicateFromSortedArray d = new RemoveDuplicateFromSortedArray();
+        System.out.println(d.removeDuplicateFromSortedArray(new int[]{-3,-1,0,0,0,3,3}));
     }
 }
