@@ -8,13 +8,13 @@ public class SecondLargestElementInArray {
 
         int slarge = Integer.MIN_VALUE;
         int large = arr[0];
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i] > large) large = arr[i];
-        }
-        for (int i = 0; i < arr.length ; i++){
-            if(arr[i] > slarge && arr[i] != large ) slarge = arr[i];
-        }
-        System.out.println("Second Largest Number In The Array Is : "+slarge);
+//        for(int i = 0; i < arr.length; i++){
+//            if(arr[i] > large) large = arr[i];
+//        }
+//        for (int i = 0; i < arr.length ; i++){
+//            if(arr[i] > slarge && arr[i] != large ) slarge = arr[i];
+//        }
+//        System.out.println("Second Largest Number In The Array Is : "+slarge);
 
 //        TC -> O(n) (Optimal approach.)
 

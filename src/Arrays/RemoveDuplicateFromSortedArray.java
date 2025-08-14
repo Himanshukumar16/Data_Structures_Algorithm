@@ -15,7 +15,6 @@ public class RemoveDuplicateFromSortedArray {
             arr[ind] = i;
             ind++;
         }
-        System.out.println(set);
         return ind;
 
 
