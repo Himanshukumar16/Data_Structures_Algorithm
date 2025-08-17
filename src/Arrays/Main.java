@@ -1,5 +1,7 @@
 package Arrays;
 
+import JAVA_PRACTICE_PROJECT_1.Question;
+
 import java.util.Scanner;
 
 public class Main {
@@ -21,11 +23,14 @@ public class Main {
 //        System.out.println(d.removeDuplicateFromSortedArray(new int[]{-3,-1,0,0,0,3,3}));
 
 //        Question 5 :
-        LeftRotateTheArrayByOnePlace r = new LeftRotateTheArrayByOnePlace();
-        r.leftRotateTheArrayByOnePlace(new int[]{1,2,3,4,5});
+//        LeftRotateTheArrayByOnePlace r = new LeftRotateTheArrayByOnePlace();
+//        r.leftRotateTheArrayByOnePlace(new int[]{1,2,3,4,5});
 
 //        Leetcode 189 :
 //        RotateArray189Leetcode r = new RotateArray189Leetcode();
 //        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 3);
+
+//        Question 6 :
+
     }
 }
