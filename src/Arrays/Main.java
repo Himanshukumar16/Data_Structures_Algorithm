@@ -22,6 +22,10 @@ public class Main {
 
 //        Question 5 :
         LeftRotateTheArrayByOnePlace r = new LeftRotateTheArrayByOnePlace();
-        r.leftRotateTheArrayByOnePlace(new int[]{3, 2, 1, 4, 6, 5});
+        r.leftRotateTheArrayByOnePlace(new int[]{1,2,3,4,5});
+
+//        Leetcode 189 :
+//        RotateArray189Leetcode r = new RotateArray189Leetcode();
+//        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 3);
     }
 }
