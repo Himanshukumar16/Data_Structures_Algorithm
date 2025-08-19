@@ -25,9 +25,9 @@ public class RotateArray189Leetcode {
 class Rotate {
     public void rotate(int[] arr, int par, int high, int low, int j) {
         for(int i = low ; i < par; i++){
-            int temp = arr[low];
-            arr[low] = arr[par-low];
-            arr[par-low] = temp;
+            int temp = arr[i];
+            arr[i] = arr[par-i];
+            arr[par-i] = temp;
         }
 
 //        j = 0;
