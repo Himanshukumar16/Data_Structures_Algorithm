@@ -27,8 +27,8 @@ public class Main {
 //        r.leftRotateTheArrayByOnePlace(new int[]{1,2,3,4,5});
 
 //        Leetcode 189 :
-        RotateArray189Leetcode r = new RotateArray189Leetcode();
-        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 6);
+//        RotateArray189Leetcode r = new RotateArray189Leetcode();
+//        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 6);
 
 //        Question 6 :
 //        RotateElementByDPlaces r = new RotateElementByDPlaces();

@@ -24,11 +24,11 @@ public class RotateArray189Leetcode {
 
 class Rotate {
     public void rotate(int[] arr, int par, int high, int low, int j) {
-        for(int i = low ; i < par; i++){
-            int temp = arr[i];
-            arr[i] = arr[par-i];
-            arr[par-i] = temp;
-        }
+//        for(int i = low ; i < par; i++){
+//            int temp = arr[i];
+//            arr[i] = arr[par-i];
+//            arr[par-i] = temp;
+//        }
 
 //        j = 0;
 //        while (par + j <= high - j) {
