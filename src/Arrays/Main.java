@@ -32,7 +32,7 @@ public class Main {
 
 //        Question 6 :
         RotateElementByDPlaces r = new RotateElementByDPlaces();
-        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 10);
+        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 3);
 
     }
 }
