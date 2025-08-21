@@ -31,8 +31,8 @@ public class Main {
 //        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 6);
 
 //        Question 6 :
-//        RotateElementByDPlaces r = new RotateElementByDPlaces();
-//        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 10);
+        RotateElementByDPlaces r = new RotateElementByDPlaces();
+        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 10);
 
     }
 }
