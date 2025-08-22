@@ -31,8 +31,12 @@ public class Main {
 //        r.rotateArray189Leetcode(new int[]{1,2,3,4,5,6,7}, 6);
 
 //        Question 6 :
-        RotateElementByDPlaces r = new RotateElementByDPlaces();
-        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 3);
+//        RotateElementByDPlaces r = new RotateElementByDPlaces();
+//        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 3);
+
+//        Question 7 :
+        MoveZeroesToEnd m = new MoveZeroesToEnd();
+        m.moveZeroesToEnd(new int[]{0, 1, 0, 3, 12});
 
     }
 }
