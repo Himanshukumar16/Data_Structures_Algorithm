@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class RemoveElement27Leetcode {
 
     public int removeElement(int[] arr, int val) {
+
         ArrayList<Integer> al = new ArrayList<>();
         for (int k : arr) {
             if (k != val) al.add(k);

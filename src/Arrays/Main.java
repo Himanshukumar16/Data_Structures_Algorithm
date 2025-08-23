@@ -1,9 +1,5 @@
 package Arrays;
 
-import JAVA_PRACTICE_PROJECT_1.Question;
-
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 //        Question 1 : O(n)
