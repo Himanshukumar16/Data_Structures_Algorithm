@@ -40,5 +40,8 @@ public class Main {
 
 //        Leetcode 2460 :
 
+//        Question 8 :
+//        LinearSearch l = new LinearSearch();
+//        System.out.println(l.linearSearch(new int[]{1,4,5,6,0,9,7}, 9));
     }
 }
