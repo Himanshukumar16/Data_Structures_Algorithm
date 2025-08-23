@@ -1,10 +1,11 @@
 package Arrays;
+
 import java.util.ArrayList;
 
 public class MoveZeroesToEnd {
     public void moveZeroesToEnd(int[] arr) {
 
-//        Brute Force- TC & SC- O(n)...
+//        Brute Force- TC & SC-> O(n)...
 
 //        ArrayList<Integer> al = new ArrayList<>();
 //        for (int k : arr) {
@@ -20,10 +21,25 @@ public class MoveZeroesToEnd {
 //            arr[i] = 0;
 //        }
 
-//        Optimal Solution :
+//        Optimal Solution : TC -> O(n) , SC -> O(1)...
 
-
-
+        int j = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                j = i;
+                break;
+            }
+        }
+        if (j != -1) {
+            for (int i = j + 1; i < arr.length; i++) {
+                if (arr[i] != 0) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                    j++;
+                }
+            }
+        }
         for (int i : arr) {
             System.out.println(i);
         }

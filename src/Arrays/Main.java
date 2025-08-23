@@ -31,13 +31,14 @@ public class Main {
 //        r.rotateelementbydplaces(new int[]{1,2,3,4,5,6,7}, 3);
 
 //        Question 7 :
-        MoveZeroesToEnd m = new MoveZeroesToEnd();
-        m.moveZeroesToEnd(new int[]{0, 1, 0, 3, 12});
+//        MoveZeroesToEnd m = new MoveZeroesToEnd();
+//        m.moveZeroesToEnd(new int[]{0,1,0,3,1,5,0,0,0,3,2});
 
-//        Question 27 :
+//        Leetcode 27 :
 //        RemoveElement27Leetcode r = new RemoveElement27Leetcode();
 //        System.out.println(r.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
 
+//        Leetcode 2460 :
 
     }
 }
