@@ -39,9 +39,11 @@ public class Main {
 //        System.out.println(r.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
 
 //        Leetcode 2460 :
+        ApplyOperationsToAnArrayLeetcode a = new ApplyOperationsToAnArrayLeetcode();
+        a.applyOperationsToAnArrayLeetcode(new int[]{1,2,2,1,1,0});
 
 //        Question 8 :
 //        LinearSearch l = new LinearSearch();
-//        System.out.println(l.linearSearch(new int[]{1,4,5,6,0,9,7}, 9));
+//        System.out.println(l.linearSearch(new int[]{1,4,5,6,0,9,7}, 5));
     }
 }

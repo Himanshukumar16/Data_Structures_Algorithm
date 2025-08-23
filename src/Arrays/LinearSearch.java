@@ -1,7 +1,6 @@
 package Arrays;
 
 public class LinearSearch {
-
     public int linearSearch(int[] arr, int n) {
 //        TC -> O(n) , SC -> O(1)...
         int out = -1;
@@ -10,8 +9,7 @@ public class LinearSearch {
                 out = i;
             }
         }
-        System.out.println("Position of element is : "+ (out + 1));
-        System.out.print("Index Of element is : ");
+        System.out.print("Index of element is : ");
         return out;
     }
 }
