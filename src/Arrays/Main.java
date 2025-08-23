@@ -38,5 +38,10 @@ public class Main {
         MoveZeroesToEnd m = new MoveZeroesToEnd();
         m.moveZeroesToEnd(new int[]{0, 1, 0, 3, 12});
 
+//        Question 27 :
+//        RemoveElement27Leetcode r = new RemoveElement27Leetcode();
+//        System.out.println(r.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
+
+
     }
 }
