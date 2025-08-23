@@ -25,7 +25,7 @@ public class ApplyOperationsToAnArrayLeetcode {
                 }
             }
         }
-        for(int i : arr){
+        for (int i : arr) {
             System.out.println(i);
         }
     }
