@@ -46,6 +46,8 @@ public class Main {
 //        LinearSearch l = new LinearSearch();
 //        System.out.println(l.linearSearch(new int[]{1,4,5,6,0,9,7}, 5));
 
-
+//        Leetcode 66 :
+        PlusOneLeetcode66 p = new PlusOneLeetcode66();
+        p.plusOneLeetcode66(new int[]{0,1,1,1,0,1,1,0,1});
     }
 }
