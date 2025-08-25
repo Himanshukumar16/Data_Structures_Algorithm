@@ -47,7 +47,11 @@ public class Main {
 //        System.out.println(l.linearSearch(new int[]{1,4,5,6,0,9,7}, 5));
 
 //        Leetcode 1493 :
-        LongestSubArrayOf1AfterDeletingOneElementLeetcode1493 p = new LongestSubArrayOf1AfterDeletingOneElementLeetcode1493();
-        p.longestSubArrayOf1AfterDeletingOneElementLeetcode1493(new int[]{1,0,1,1,1,0,1,1,1,0,0,1});
+//        LongestSubArrayOf1AfterDeletingOneElementLeetcode1493 p = new LongestSubArrayOf1AfterDeletingOneElementLeetcode1493();
+//        p.longestSubArrayOf1AfterDeletingOneElementLeetcode1493(new int[]{1,0,1,1,1,0,1,1,1,0,0,1});
+
+//        leetcode 238 :
+        ProductExceptSelf p = new ProductExceptSelf();
+        p.productExceptSelf(new int[]{1,2,3,4});
     }
 }
