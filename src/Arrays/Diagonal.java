@@ -10,7 +10,6 @@ public class Diagonal {
             diagonalLength = Math.sqrt((i[0] * i[0]) + (i[1] * i[1]));
             al.add(diagonalLength);
         }
-        System.out.println(al);
         double max = al.getFirst();
         int k = 0;
         int ind = k;

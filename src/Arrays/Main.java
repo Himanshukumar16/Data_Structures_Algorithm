@@ -50,11 +50,12 @@ public class Main {
 //        LongestSubArrayOf1AfterDeletingOneElementLeetcode1493 p = new LongestSubArrayOf1AfterDeletingOneElementLeetcode1493();
 //        p.longestSubArrayOf1AfterDeletingOneElementLeetcode1493(new int[]{1,0,1,1,1,0,1,1,1,0,0,1});
 
-//        leetcode 238 :
+//        leetcode 238 : incomplete
 //        ProductExceptSelf p = new ProductExceptSelf();
 //        p.productExceptSelf(new int[]{1,2,3,4});
 
-        Diagonal d = new Diagonal();
-        d.diagonal(new int[][] {{25,60},{39,52},{16,63},{33,56}});
+//        Leetcode 3000 :
+//        Diagonal d = new Diagonal();
+//        d.diagonal(new int[][] {{25,60},{39,52},{16,63},{33,56}});
     }
 }
