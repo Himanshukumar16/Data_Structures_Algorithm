@@ -57,5 +57,9 @@ public class Main {
 //        Leetcode 3000 :
 //        Diagonal d = new Diagonal();
 //        d.diagonal(new int[][] {{25,60},{39,52},{16,63},{33,56}});
+
+//        Leetcode 1 :
+        TwoSum t = new TwoSum();
+        t.twoSum(new int[]{3,2,5,7,8,9,3,5},6);
     }
 }
