@@ -14,6 +14,7 @@ public class ProductExceptSelf {
                 System.out.println("j : "+j);
                 j++;
             }
+            System.out.println();
         }
 //        for(int i : nums){
 //            System.out.println(i);
