@@ -15,15 +15,5 @@ public class TwoSum {
 //            }
 //        }
 
-//        Optimal Solution : TC-> O(), SC-> O()...
-
-
-        int j = nums.length - 1;
-        for(int i = 0; i < nums.length; i++){
-
-        }
-        for (int k : arr){
-            System.out.println(k);
-        }
     }
 }
