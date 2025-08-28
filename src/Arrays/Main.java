@@ -61,5 +61,9 @@ public class Main {
 //        Leetcode 1 :
         TwoSum t = new TwoSum();
         t.twoSum(new int[]{3,2,5,7,8,9,3,5},6);
+
+//        Leetcode 3658 :
+//        GcdOfOddAndEven g = new GcdOfOddAndEven();
+//        g.gcdOfOddAndEven(4);
     }
 }
