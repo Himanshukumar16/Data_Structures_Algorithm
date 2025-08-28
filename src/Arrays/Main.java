@@ -59,11 +59,24 @@ public class Main {
 //        d.diagonal(new int[][] {{25,60},{39,52},{16,63},{33,56}});
 
 //        Leetcode 1 :
-        TwoSum t = new TwoSum();
-        t.twoSum(new int[]{3,2,5,7,8,9,3,5},6);
+//        TwoSum t = new TwoSum();
+//        t.twoSum(new int[]{3,2,5,7,8,9,3,5},6);
 
 //        Leetcode 3658 :
 //        GcdOfOddAndEven g = new GcdOfOddAndEven();
-//        g.gcdOfOddAndEven(4);
+//        g.gcdOfOddAndEven(7);
+
+//        Leetcode 35 :
+//        SearchInsertPosition s = new SearchInsertPosition();
+//        s.searchInsertPosition(new int[]{1,3,5,6},5);
+
+//        Leetcode 3065 :
+//        MinimumOperationsToExceedThresholdValue m = new MinimumOperationsToExceedThresholdValue();
+//        m.minimumOperationsToExceedThresholdValue(new int[]{1,1,2,4,9},1);
+
+//        Leetcode 2798 :
+//        NumberOfEmployeesWhoMetTarget n = new NumberOfEmployeesWhoMetTarget();
+//        n.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2},6);
+
     }
 }
