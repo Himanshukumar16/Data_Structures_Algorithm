@@ -78,5 +78,9 @@ public class Main {
 //        NumberOfEmployeesWhoMetTarget n = new NumberOfEmployeesWhoMetTarget();
 //        n.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2},6);
 
+//        Question 9 :
+        UnionOfAnArray u = new UnionOfAnArray();
+        u.unionOfAnArray(new int[]{1, 2, 3, 4, 5}, new int[]{2, 2, 3, 4, 4, 5, 6});
+
     }
 }
