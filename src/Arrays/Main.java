@@ -80,7 +80,7 @@ public class Main {
 
 //        Question 9 :
         UnionOfAnArray u = new UnionOfAnArray();
-        u.unionOfAnArray(new int[]{3, 4, 6, 7, 9, 9}, new int[]{1, 5, 7, 8, 8});
+        u.unionOfAnArray(new int[]{1,3, 4, 6, 7, 9, 9}, new int[]{2, 5, 7, 8, 8});
 
     }
 }
