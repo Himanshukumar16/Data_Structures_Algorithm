@@ -7,11 +7,11 @@ public class UnionOfAnArray {
 
 //        By Set : TC-> O(n1 + n2) , SC -> O(n1+n2)..
 
-//        int n1 = arr1.length;
-//        int n2 = arr2.length;
+        int n1 = arr1.length;
+        int n2 = arr2.length;
 
-//        int i = 0;
-//        int j = 0;
+        int i = 0;
+        int j = 0;
 
 //        Set<Integer> unionArr = new LinkedHashSet<>();
 
@@ -88,5 +88,38 @@ public class UnionOfAnArray {
 //            j++;
 //        }
 //        System.out.println(unionArr2);
+
+
+//        By Map : TC-> O(n1 + n2), SC-> O(n1 + n2)...
+
+//        Map<Integer,Integer> map = new LinkedHashMap<>();
+//        while(i < n1 && j < n2){
+//            if(arr1[i] <= arr2[j]){
+//                map.putIfAbsent(arr1[i],1);
+//                i++;
+//            }
+//            else if(arr1[i] > arr2[j]){
+//                map.putIfAbsent(arr2[j],1);
+//                j++;
+//            }
+//        }
+//        while(i < n1) {
+//            map.putIfAbsent(arr1[i],1);
+//            i++;
+//        }
+//        while(j < n2) {
+//            map.putIfAbsent(arr2[j],1);
+//            j++;
+//        }
+//        int ind = 0;
+//        int[] arr = new int[map.size()];
+//        for(int k : map.keySet()){
+//            arr[ind] = k;
+//            ind++;
+//            System.out.println(k);
+//        }
+//        for(int k : arr) {
+//            System.out.println(k);
+//        }
     }
 }
