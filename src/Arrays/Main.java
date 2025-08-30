@@ -83,7 +83,7 @@ public class Main {
 //        u.unionOfAnArray(new int[]{1, 2, 3, 4, 5, 5, 5}, new int[]{});
 
 //        Leetcode 349 :
-        IntersectionOfTwoArrays i = new IntersectionOfTwoArrays();
-        i.intersectionOfTwoArrays(new int[]{1,2,2,1},new int[]{2});
+//        IntersectionOfTwoArrays i = new IntersectionOfTwoArrays();
+//        i.intersectionOfTwoArrays(new int[]{1,2,2,1},new int[]{2});
     }
 }
