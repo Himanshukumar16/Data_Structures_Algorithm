@@ -85,5 +85,11 @@ public class Main {
 //        Leetcode 349 :
 //        IntersectionOfTwoArrays i = new IntersectionOfTwoArrays();
 //        i.intersectionOfTwoArrays(new int[]{1,2,2,1},new int[]{2});
+
+//        Leetcode  3668:
+//        RestoreFinishingOrder m = new RestoreFinishingOrder();
+//        m.restoreFinishingOrder(new int[]{3,1,2,5,4},new int[]{1,3,4});
+
+
     }
 }
