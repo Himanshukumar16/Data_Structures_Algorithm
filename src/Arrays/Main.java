@@ -51,8 +51,8 @@ public class Main {
 //        p.longestSubArrayOf1AfterDeletingOneElementLeetcode1493(new int[]{1,0,1,1,1,0,1,1,1,0,0,1});
 
 //        leetcode 238 : incomplete -----------------------------------------------------------X------------------------
-//        ProductExceptSelf p = new ProductExceptSelf();
-//        p.productExceptSelf(new int[]{1,2,3,4});
+        ProductExceptSelf p = new ProductExceptSelf();
+        p.productExceptSelf(new int[]{1,2,3,1,2,4});
 
 //        Leetcode 3000 :
 //        Diagonal d = new Diagonal();
@@ -89,6 +89,10 @@ public class Main {
 //        Leetcode  3668:
 //        RestoreFinishingOrder m = new RestoreFinishingOrder();
 //        m.restoreFinishingOrder(new int[]{3,1,2,5,4},new int[]{1,3,4});
+
+//        Question 10 :
+        MissingValue m = new MissingValue();
+        m.missingValue(new int[]{1,0,3,4});
 
 
     }
