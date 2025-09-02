@@ -92,7 +92,7 @@ public class Main {
 
 //        Question 10 :
         MissingValue m = new MissingValue();
-        m.missingValue(new int[]{1,0,3,4});
+        m.missingValue(new int[]{9,6,4,2,3,5,7,0,1});
 
 
     }
