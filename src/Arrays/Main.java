@@ -95,7 +95,7 @@ public class Main {
 //        m.missingValue(new int[]{9,6,4,2,3,5,7,0,1,8});
 
 //        Question 11 :
-        MaximumConsecutiveOne m = new MaximumConsecutiveOne();
-        m.maximumConsecutiveOne(new int[]{1,0,1,1,0,1});
+//        MaximumConsecutiveOne m = new MaximumConsecutiveOne();
+//        m.maximumConsecutiveOne(new int[]{1,0,1,1,0,1});
     }
 }
