@@ -2,16 +2,18 @@ package Arrays;
 
 public class MaximumConsecutiveOne {
     public void maximumConsecutiveOne(int[] nums) {
+
+//        TC -> O(n), SC -> O(1)...
+
         int max = 0;
         int count = 0;
-
-        for(int i = 0; i < nums.length; i++) {
-            if(nums[i] == 1) {
+        for (int num : nums) {
+            if (num == 1) {
                 count++;
-                max = count;
-            }
-            else count = 0;
+                max = Math.max(count, max);
+            } else count = 0;
         }
+
         System.out.println(max);
     }
 }
