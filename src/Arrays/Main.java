@@ -91,9 +91,11 @@ public class Main {
 //        m.restoreFinishingOrder(new int[]{3,1,2,5,4},new int[]{1,3,4});
 
 //        Question 10 :
-        MissingValue m = new MissingValue();
-        m.missingValue(new int[]{9,6,4,2,3,5,7,0,1});
+//        MissingValue m = new MissingValue();
+//        m.missingValue(new int[]{9,6,4,2,3,5,7,0,1,8});
 
-
+//        Question 11 :
+        MaximumConsecutiveOne m = new MaximumConsecutiveOne();
+        m.maximumConsecutiveOne(new int[]{1,0,1,1,0,1});
     }
 }

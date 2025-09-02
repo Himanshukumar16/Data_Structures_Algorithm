@@ -35,22 +35,24 @@ public class MissingValue {
 
 //        Optimal Solution - 1 : TC -> O(n), SC -> O(1)...
 
-//        int sum = 0;
-//        int n = arr.length;
-//        int total = (n * (n+1)) / 2;
-//        for (int j : arr) {
-//            sum += j;
-//        }
-//        System.out.println(total-sum);
+        int sum = 0;
+        int n = arr.length;
+        int total = (n * (n+1)) / 2;
+        for (int j : arr) {
+            sum += j;
+        }
+        System.out.println(total-sum);
+
 
 //        Optimal Solution 2 : TC -> O(), SC -> O()...
 
-        int xor1 = 0;
-        int xor2 = 0;
-        for (int i = 0; i < arr.length; i++) {
-            xor2 = xor2 ^ arr[i];
-            xor1 = xor1 ^ (i + 1);
-        }
-        System.out.println(xor1 ^ xor2);
+//        int xor1 = 0;
+//        int xor2 = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            xor2 = xor2 ^ arr[i];
+//            xor1 = xor1 ^ (i + 1);
+//        }
+//        System.out.println(xor1 ^ xor2);
+
     }
 }
