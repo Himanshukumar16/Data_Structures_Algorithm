@@ -97,5 +97,9 @@ public class Main {
 //        Question 11 :
 //        MaximumConsecutiveOne m = new MaximumConsecutiveOne();
 //        m.maximumConsecutiveOne(new int[]{1,0,1,1,0,1});
+
+//        Question 12 :
+        NumberAppearence na = new NumberAppearence();
+        na.numberAppearence(new int[]{4, 1, 2, 1, 2});
     }
 }
