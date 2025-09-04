@@ -98,6 +98,10 @@ public class Main {
 //        MaximumConsecutiveOne m = new MaximumConsecutiveOne();
 //        m.maximumConsecutiveOne(new int[]{1,0,1,1,0,1});
 
+//        Leetcode 3516 :
+//        FindClosestPerson f = new FindClosestPerson();
+//        f.findClosestPerson(1,5,3);
+
 //        Question 12 :
         NumberAppearence na = new NumberAppearence();
         na.numberAppearence(new int[]{4, 1, 2, 1, 2});
