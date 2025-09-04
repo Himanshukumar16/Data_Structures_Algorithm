@@ -104,6 +104,6 @@ public class Main {
 
 //        Question 12 :
         NumberAppearence na = new NumberAppearence();
-        na.numberAppearence(new int[]{4, 1, 2, 1, 2});
+        na.numberAppearence(new int[]{1,1,2,2,2,3,4,4,4,5});
     }
 }
