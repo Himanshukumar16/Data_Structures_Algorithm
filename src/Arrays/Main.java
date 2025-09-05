@@ -103,7 +103,12 @@ public class Main {
 //        f.findClosestPerson(1,5,3);
 
 //        Question 12 :
-        NumberAppearence na = new NumberAppearence();
-        na.numberAppearence(new int[]{1,1,2,2,2,3,4,4,4,5});
+//        NumberAppearence na = new NumberAppearence();
+//        na.numberAppearence(new int[]{4,4,5,5,8,1,2,1,2});
+
+//        Question 13 :
+        LongestSubarraySumK l = new LongestSubarraySumK();
+        l.LongestSubarraySumK(new int[]{},5);
+
     }
 }
