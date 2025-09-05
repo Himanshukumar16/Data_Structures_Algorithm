@@ -108,7 +108,7 @@ public class Main {
 
 //        Question 13 :
         LongestSubarraySumK l = new LongestSubarraySumK();
-        l.LongestSubarraySumK(new int[]{},5);
+        l.longestSubarraySumK(new int[]{1,1,2,1,2,3,4,5,1}, 5);
 
     }
 }
