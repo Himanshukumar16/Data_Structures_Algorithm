@@ -1,5 +1,9 @@
 package Arrays;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class LongestSubarraySumK {
     public void longestSubarraySumK(int[] arr, int n) {
 
@@ -47,6 +51,14 @@ public class LongestSubarraySumK {
 
 //        Better Approach : TC -> O(), SC -> O()...
 
-
+        Map<Integer,Integer> map = new LinkedHashMap<>();
+        int prefix = 0;
+        int length = 0;
+        for(int i = 0; i < arr.length; i++) {
+            prefix += arr[i];
+            if (prefix == n) length = Math.max(length, i + 1);
+            map.put(prefix, i);
+        }
+        System.out.println(length);
     }
 }
