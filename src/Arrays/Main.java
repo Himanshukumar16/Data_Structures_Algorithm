@@ -108,7 +108,7 @@ public class Main {
 
 //        Question 13 :
         LongestSubarraySumK l = new LongestSubarraySumK();
-        l.longestSubarraySumK(new int[]{2, 3, 4, 1, 1, 2, 1, 5, 1}, 5);
+        l.longestSubarraySumK(new int[]{1,2,3,1,1,1,1}, 3);
 
     }
 }
