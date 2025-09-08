@@ -51,17 +51,17 @@ public class LongestSubarraySumK {
 
 //        Better Approach : TC -> O(), SC -> O()...
 
-        Map<Integer, Integer> map = new LinkedHashMap<>();
-        int prefix = 0;
+        Map<Long, Integer> map = new LinkedHashMap<>();
+        long prefix = 0;
         int length = 0;
         for (int i = 0; i < arr.length; i++) {
             prefix += arr[i];
             if (prefix == n) length = Math.max(length, i + 1);
             Integer m = map.get(prefix - n);
             if (map.get(prefix - n) != null) {
-                length = Math.max(length, i - m );
+                length = Math.max(length, i - m);
             }
-            map.put(prefix,i);
+            if (!map.containsKey(prefix)) map.put(prefix, i);
         }
         System.out.println(map);
         System.out.println(length);
