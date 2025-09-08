@@ -9,17 +9,17 @@ public class LongestSubarraySumK {
 
 //        How to find Subarray :
 
-//        for(int i = 0; i < arr.length; i++) {
-//            for(int j = i; j < arr.length; j++) {
-//                for(int k = i; k < j;k++) {
-//                    System.out.print(arr[k]+" ");
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i; j < arr.length; j++) {
+//                for (int k = i; k < j; k++) {
+//                    System.out.print(arr[k] + " ");
 //                }
 //                System.out.println();
 //            }
 //        }
 
 
-//        Brute-Force Approach 1: TC-> O(n^3), SC-> O(1).
+//        Brute - Force Approach 1:TC -> O(n ^ 3), SC -> O(1).
 
 //        int length = 0;
 //        for (int i = 0; i < arr.length; i++) {
@@ -36,34 +36,39 @@ public class LongestSubarraySumK {
 //        System.out.println(length);
 
 
-//        Brute-Force Approach 2: TC-> O(n^2), SC-> O(1).
+//        Brute - Force Approach 2:TC -> O(n ^ 2), SC -> O(1).
 
 //        int length = 0;
-//        for(int i = 0; i < arr.length; i++) {
+//        for (int i = 0; i < arr.length; i++) {
 //            int sum = 0;
-//            for(int j = i; j < arr.length; j++) {
+//            for (int j = i; j < arr.length; j++) {
 //                sum += arr[j];
-//                if(sum == n) length += 1;
+//                if (sum == n) length += 1;
 //            }
 //        }
 //        System.out.println(length);
 
 
-//        Better Approach : TC -> O(), SC -> O()...
+//        Better Approach :TC -> (worst) O(n ^ 2) (average) O(n), SC -> O(n)...
 
-        Map<Long, Integer> map = new LinkedHashMap<>();
-        long prefix = 0;
-        int length = 0;
-        for (int i = 0; i < arr.length; i++) {
-            prefix += arr[i];
-            if (prefix == n) length = Math.max(length, i + 1);
-            Integer m = map.get(prefix - n);
-            if (map.get(prefix - n) != null) {
-                length = Math.max(length, i - m);
-            }
-            if (!map.containsKey(prefix)) map.put(prefix, i);
-        }
-        System.out.println(map);
-        System.out.println(length);
+//        Map<Long, Integer> map = new LinkedHashMap<>();
+//        long prefix = 0;
+//        int length = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            prefix += arr[i];
+//            if (prefix == n) length = Math.max(length, i + 1);
+//            Integer m = map.get(prefix - n);
+//            if (map.get(prefix - n) != null) {
+//                length = Math.max(length, i - m);
+//            }
+//            if (!map.containsKey(prefix)) map.put(prefix, i);
+//        }
+//        System.out.println(map);
+//        System.out.println(length);
+
+
+//        Optimal Solution :TC -> O(), SC -> O().
+
+
     }
 }
