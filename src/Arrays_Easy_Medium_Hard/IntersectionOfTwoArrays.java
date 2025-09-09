@@ -1,4 +1,4 @@
-package Arrays_Basics_Easy;
+package Arrays_Easy_Medium_Hard;
 
 public class IntersectionOfTwoArrays {
     public void intersectionOfTwoArrays(int[] nums1, int[] nums2) {

@@ -1,4 +1,4 @@
-package Arrays_Basics_Easy;
+package Arrays_Easy_Medium_Hard;
 
 public class LongestSubarraySumK {
     public void longestSubarraySumK(int[] arr, int n) {

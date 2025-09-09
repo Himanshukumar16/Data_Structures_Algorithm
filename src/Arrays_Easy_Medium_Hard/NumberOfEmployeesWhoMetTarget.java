@@ -1,4 +1,4 @@
-package Arrays_Basics_Easy;
+package Arrays_Easy_Medium_Hard;
 
 public class NumberOfEmployeesWhoMetTarget {
     public void numberOfEmployeesWhoMetTarget(int[] nums, int target) {

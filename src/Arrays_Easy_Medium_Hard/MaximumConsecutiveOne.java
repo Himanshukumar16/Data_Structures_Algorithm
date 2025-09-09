@@ -1,4 +1,4 @@
-package Arrays_Basics_Easy;
+package Arrays_Easy_Medium_Hard;
 
 public class MaximumConsecutiveOne {
     public void maximumConsecutiveOne(int[] nums) {
