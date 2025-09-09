@@ -5,15 +5,7 @@ public class TwoSum {
 
 //        Brute-Force : TC-> O(n^2), SC->O(1)...
 
-        int[] arr = new int[2];
-//        for (int i = 0; i < nums.length - 1; i++) {
-//            for (int j = i; j < nums.length; j++) {
-//                if (nums[i] + nums[j] == target && i != j) {
-//                    arr[0] = i;
-//                    arr[1] = j;
-//                }
-//            }
-//        }
+
 
     }
 }

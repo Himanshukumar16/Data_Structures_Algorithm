@@ -58,10 +58,6 @@ public class Main {
 //        Diagonal d = new Diagonal();
 //        d.diagonal(new int[][] {{25,60},{39,52},{16,63},{33,56}});
 
-//        Leetcode 1 :
-//        TwoSum t = new TwoSum();
-//        t.twoSum(new int[]{3,2,5,7,8,9,3,5},6);
-
 //        Leetcode 3658 :
 //        GcdOfOddAndEven g = new GcdOfOddAndEven();
 //        g.gcdOfOddAndEven(7);
@@ -110,6 +106,9 @@ public class Main {
 //        LongestSubarraySumK l = new LongestSubarraySumK();
 //        l.longestSubarraySumK(new int[]{1, 2, 3, 1, 1, 1, 1, 1}, 11);
 
-//        Question 14 :
+//        Leetcode 1 :
+        TwoSum t = new TwoSum();
+        t.twoSum(new int[]{3, 2, 5, 7, 8, 9, 3, 5}, 6);
+
     }
 }
