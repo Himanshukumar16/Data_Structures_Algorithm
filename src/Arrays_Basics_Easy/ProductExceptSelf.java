@@ -1,7 +1,4 @@
-package Arrays;
-
-import java.util.HashMap;
-import java.util.Map;
+package Arrays_Basics_Easy;
 
 public class ProductExceptSelf {
     public void productExceptSelf(int[] nums) {

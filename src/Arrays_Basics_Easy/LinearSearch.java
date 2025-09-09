@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class LinearSearch {
     public int linearSearch(int[] arr, int n) {

@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.*;
+package Arrays_Basics_Easy;
 
 public class UnionOfAnArray {
     public void unionOfAnArray(int[] arr1, int[] arr2) {

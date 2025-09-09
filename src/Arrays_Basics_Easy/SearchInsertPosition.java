@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class SearchInsertPosition {
     public void searchInsertPosition(int[]nums , int n){

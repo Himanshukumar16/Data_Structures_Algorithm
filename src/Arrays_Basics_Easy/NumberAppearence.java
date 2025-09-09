@@ -1,7 +1,4 @@
-package Arrays;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
+package Arrays_Basics_Easy;
 
 public class NumberAppearence {
     public void numberAppearence(int[]arr) {

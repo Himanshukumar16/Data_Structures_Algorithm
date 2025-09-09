@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class FindClosestPerson {
     public void findClosestPerson(int x, int y, int z) {

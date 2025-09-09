@@ -1,5 +1,5 @@
 // Incomplete !!!!.
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class RotateArray189Leetcode {
 

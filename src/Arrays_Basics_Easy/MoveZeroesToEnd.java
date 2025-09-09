@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.ArrayList;
+package Arrays_Basics_Easy;
 
 public class MoveZeroesToEnd {
     public void moveZeroesToEnd(int[] arr) {

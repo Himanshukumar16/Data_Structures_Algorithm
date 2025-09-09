@@ -1,5 +1,4 @@
-package Arrays;
-import java.util.*;
+package Arrays_Basics_Easy;
 
 public class IntersectionOfTwoArrays {
     public void intersectionOfTwoArrays(int[] nums1, int[] nums2) {

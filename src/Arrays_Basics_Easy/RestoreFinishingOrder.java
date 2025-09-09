@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class RestoreFinishingOrder {
     public void restoreFinishingOrder(int [] order , int[]friends){

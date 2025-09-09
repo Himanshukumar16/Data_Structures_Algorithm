@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 import java.util.LinkedHashSet;
 import java.util.Set;
 

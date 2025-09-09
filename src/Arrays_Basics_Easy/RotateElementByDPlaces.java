@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class RotateElementByDPlaces {
     public void rotateelementbydplaces(int[] arr, int k) {

@@ -1,8 +1,4 @@
-package Arrays;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+package Arrays_Basics_Easy;
 
 public class LongestSubarraySumK {
     public void longestSubarraySumK(int[] arr, int n) {

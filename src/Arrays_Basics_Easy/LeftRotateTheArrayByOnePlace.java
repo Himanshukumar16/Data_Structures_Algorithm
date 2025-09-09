@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class LeftRotateTheArrayByOnePlace {
     public void leftRotateTheArrayByOnePlace(int[] arr) {

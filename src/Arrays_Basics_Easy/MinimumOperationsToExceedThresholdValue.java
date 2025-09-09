@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class MinimumOperationsToExceedThresholdValue {
     public void minimumOperationsToExceedThresholdValue(int[] arr, int n) {

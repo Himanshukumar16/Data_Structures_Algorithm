@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Basics_Easy;
 
 public class GcdOfOddAndEven {
     public void gcdOfOddAndEven(int n){
