@@ -67,6 +67,22 @@ public class LongestSubarraySumK {
 //        System.out.println(length);
 
 
-//        Optimal Solution :TC -> O(), SC -> O().
+//        Optimal Solution :TC -> O(n), SC -> O(1)...(Valid for both positive and negative)...
+
+//        int i = 0;
+//        int j = 0;
+//        int sum = arr[0];
+//        int length = 0;
+//        while (j < arr.length) {
+//            while (sum > n && i <= j) {
+//                sum -= arr[i];
+//                i++;
+//            }
+//            if(sum == n) length = Math.max(length, j - i + 1);
+//            j++;
+//            if (j < arr.length) sum += arr[j];
+//        }
+//        System.out.println(length);
+
     }
 }

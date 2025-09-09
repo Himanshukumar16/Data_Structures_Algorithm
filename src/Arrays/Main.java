@@ -107,8 +107,9 @@ public class Main {
 //        na.numberAppearence(new int[]{4,4,5,5,8,1,2,1,2});
 
 //        Question 13 :
-        LongestSubarraySumK l = new LongestSubarraySumK();
-        l.longestSubarraySumK(new int[]{1,2,3,1,1,1,1}, 3);
+//        LongestSubarraySumK l = new LongestSubarraySumK();
+//        l.longestSubarraySumK(new int[]{1, 2, 3, 1, 1, 1, 1, 1}, 11);
 
+//        Question 14 :
     }
 }
