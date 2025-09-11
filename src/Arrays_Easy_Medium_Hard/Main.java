@@ -1,5 +1,7 @@
 package Arrays_Easy_Medium_Hard;
 
+import JAVA_PRACTICE_PROJECT_1.Question;
+
 public class Main {
     public static void main(String[] args) {
 //        Question 1 :
@@ -99,7 +101,6 @@ public class Main {
 //        f.findClosestPerson(1,5,3);
 
 //        Question 12 :
-
 //        NumberAppearence na = new NumberAppearence();
 //        na.numberAppearence(new int[]{4,4,5,5,8,1,2,1,2});
 
@@ -108,8 +109,11 @@ public class Main {
 //        l.longestSubarraySumK(new int[]{1, 2, 3, 1, 1, 1, 1, 1}, 11);
 
 //        Leetcode 1 :
-        TwoSum t = new TwoSum();
-        t.twoSum(new int[]{2,5,3,4}, 9);
+//        TwoSum t = new TwoSum();
+//        t.twoSum(new int[]{2,5,3,4}, 9);
 
+//        Question 14 :
+        SortArrayConsitsOf0_1_2 s = new SortArrayConsitsOf0_1_2();
+        s.sortArrayConsitsOf0_1_2(new int[]{2, 0, 2, 1, 1, 0});
     }
 }
