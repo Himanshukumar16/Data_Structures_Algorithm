@@ -18,8 +18,17 @@ public class TwoSum {
 //            }
 //        }
 
-//        Optimal Solution : TC-> O(), SC-> O().
 
+//        Better & Optimal Solution : TC-> O(n), SC-> O(n).
+
+//        Map<Integer, Integer> map = new HashMap<>();
+//        for (int i = 0; i < nums.length; i++){
+//            if(map.containsKey(target - nums[i])) {
+//                arr[0] = map.get(target - nums[i]);
+//                arr[1] = i;
+//            }
+//            map.put(nums[i], i);
+//        }
 
         for (int i : arr) {
             System.out.println(i);
