@@ -20,12 +20,6 @@ public class TwoSum {
 
 //        Optimal Solution : TC-> O(), SC-> O().
 
-        Map<Integer, Integer> map = new HashMap<>();
-        int sum = 0;
-        int ind = 0;
-        for (int i = 0; i < nums.length; i++) {
-
-        }
 
         for (int i : arr) {
             System.out.println(i);

@@ -99,6 +99,7 @@ public class Main {
 //        f.findClosestPerson(1,5,3);
 
 //        Question 12 :
+
 //        NumberAppearence na = new NumberAppearence();
 //        na.numberAppearence(new int[]{4,4,5,5,8,1,2,1,2});
 
