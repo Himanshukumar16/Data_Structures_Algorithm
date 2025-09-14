@@ -18,13 +18,12 @@ public class SecondLargestElementInArray {
 
 //        TC -> O(n) (Optimal approach.)
 
-        for(int i = 1; i < arr.length; i++){
-            if(arr[i] > large) {
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > large) {
                 slarge = large;
                 large = arr[i];
-            }
-            else if(arr[i] < large && arr[i] > slarge) slarge = arr[i];
+            } else if (arr[i] < large && arr[i] > slarge) slarge = arr[i];
         }
-        System.out.println("Second Largest Number In The Array Is : "+slarge);
+        System.out.println("Second Largest Number In The Array Is : " + slarge);
     }
 }
