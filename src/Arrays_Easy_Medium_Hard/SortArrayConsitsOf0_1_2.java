@@ -19,10 +19,10 @@ public class SortArrayConsitsOf0_1_2 {
         for (int i = 0; i < count0; i++) {
             arr[i] = 0;
         }
-        for (int i = count0; i < arr.length - count2; i++) {
+        for (int i = count0; i < count0 + count1; i++) {
             arr[i] = 1;
         }
-        for (int i = arr.length - count2; i < arr.length; i++) {
+        for (int i = count0 + count1; i < arr.length; i++) {
             arr[i] = 2;
         }
         for (int i : arr) {
