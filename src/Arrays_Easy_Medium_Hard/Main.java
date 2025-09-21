@@ -113,12 +113,13 @@ public class Main {
 //        t.twoSum(new int[]{2,5,3,4}, 9);
 
 //        Question 14 :
-        SortArrayConsitsOf0_1_2 s = new SortArrayConsitsOf0_1_2();
-        s.sortArrayConsitsOf0_1_2(new int[]{2, 0, 2, 1, 1, 0, 0, 0, 1});
-
+//        SortArrayConsitsOf0_1_2 s = new SortArrayConsitsOf0_1_2();
+//        s.sortArrayConsitsOf0_1_2(new int[]{0, 2, 1, 0, 2, 1, 1, 2, 0, 0, 1});
 
 //        Leetcode 3541 :
 //        MaximumFrequency m = new MaximumFrequency();
 //        m.maximumFrequency("successes");
+
+//
     }
 }
