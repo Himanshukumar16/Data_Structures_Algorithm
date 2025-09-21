@@ -29,7 +29,7 @@ public class SortArrayConsitsOf0_1_2 {
 //            System.out.println(i);
 //        }
 
-//        Optimal : TC->O(),SC->O()...
+//        Optimal : TC->O(n),SC->O(1)...
 
         int low = 0;
         int mid = 0;
