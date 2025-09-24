@@ -119,5 +119,8 @@ public class Main {
 //        Leetcode 3541 :
 //        MaximumFrequency m = new MaximumFrequency();
 //        m.maximumFrequency("successes");
+
+        MajorityElement m = new MajorityElement();
+        m.majorityElement(new int[]{2,2,1,1,1,2,2});
     }
 }
