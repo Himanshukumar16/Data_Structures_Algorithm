@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class MajorityElement {
     public void majorityElement(int[] nums) {
+
 //        Brute-Force : TC- O(n^2), SC- O(1)...
 
 //        int out = 0;
@@ -24,16 +25,21 @@ public class MajorityElement {
 //        }
 //        System.out.println(out);
 
+
 //        Better Solution : TC - O(n), SC O(n)...
 
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i : nums) {
-            map.put(i, map.getOrDefault(i, 0) + 1);
-        }
-        for (int i : map.keySet()) {
-            if (map.get(i) > nums.length / 2) {
-                System.out.println(i);
-            }
-        }
+//        Map<Integer, Integer> map = new HashMap<>();
+//        for (int i : nums) {
+//            map.put(i, map.getOrDefault(i, 0) + 1);
+//        }
+//        for (int i : map.keySet()) {
+//            if (map.get(i) > nums.length / 2) {
+//                System.out.println(i);
+//            }
+//        }
+
+
+//        Optimal Solution : TC - O(n), SC - O(1)...
+
     }
 }
