@@ -121,6 +121,6 @@ public class Main {
 //        m.maximumFrequency("successes");
 
         MajorityElement m = new MajorityElement();
-        m.majorityElement(new int[]{3,2,3});
+        m.majorityElement(new int[]{5, 2, 0, 5, 5});
     }
 }
