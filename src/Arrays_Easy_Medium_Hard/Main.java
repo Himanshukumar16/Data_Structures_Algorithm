@@ -126,6 +126,6 @@ public class Main {
 
 //        Question 16 :
         MaximumSubarraySum m = new MaximumSubarraySum();
-        m.maximumSubarraySum(new int[]{5,4,-1,7,8});
+        m.maximumSubarraySum(new int[]{-2,-3,-1,-5});
     }
 }
