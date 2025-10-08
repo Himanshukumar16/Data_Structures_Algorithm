@@ -49,9 +49,12 @@ public class MaximumSubarraySum {
         int sum = 0;
         for (int j : arr) {
             sum += j;
-            if (sum >= 0) {
+            if (sum >= 0) max = Math.max(sum, max);
+            else if (sum < 0) {
                 max = Math.max(sum, max);
-            } else sum = 0;
+                sum = 0;
+            }
+            else sum = 0;
         }
         System.out.println(max);
 
