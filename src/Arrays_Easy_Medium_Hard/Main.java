@@ -51,8 +51,8 @@ public class Main {
 //        p.longestSubArrayOf1AfterDeletingOneElementLeetcode1493(new int[]{1,0,1,1,1,0,1,1,1,0,0,1});
 
 //        leetcode 238 : incomplete -----------------------------------------------------------X------------------------
-        ProductExceptSelf p = new ProductExceptSelf();
-        p.productExceptSelf(new int[]{1,2,3,1,2,4});
+//        ProductExceptSelf p = new ProductExceptSelf();
+//        p.productExceptSelf(new int[]{1,2,3,1,2,4});
 
 //        Leetcode 3000 :
 //        Diagonal d = new Diagonal();
@@ -127,7 +127,14 @@ public class Main {
 //        m.maximumSubarraySum(new int[]{-2,-3,-1,-5});
 
 //        Quetion 17 :
-        PrintMaximumSubArray m = new PrintMaximumSubArray();
-        m.printMaximumSubArray(new int[]{-5,4,-1,-3});
+//        PrintMaximumSubArray m = new PrintMaximumSubArray();
+//        m.printMaximumSubArray(new int[]{-5,-1,-3});
+
+//        Question 18 :
+//        StockBuyAndSell s = new StockBuyAndSell();
+//        s.stockBuyAndSell(new int[]{7,6,4,3,1});
+
+//        Question 19 :
+
     }
 }

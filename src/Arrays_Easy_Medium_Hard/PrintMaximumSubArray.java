@@ -9,20 +9,20 @@ public class PrintMaximumSubArray {
         int max = Integer.MIN_VALUE;
 
         for (int j = 0; j < nums.length; j++) {
-            if(sum == 0) start = j;
+            if (sum == 0) start = j;
             sum += nums[j];
             if (sum >= 0) {
                 max = Math.max(sum, max);
-                end = j;
             }
             if (sum < 0) {
                 max = Math.max(sum, max);
                 sum = 0;
             }
+            if (max == Math.max(sum, max)) end = j;
         }
         System.out.println(max);
         for (int i = start; i <= end ; i++) {
-            System.out.print(nums[i] + " ");
+            System.out.print("["+ nums[i] + "]");
         }
     }
 }
