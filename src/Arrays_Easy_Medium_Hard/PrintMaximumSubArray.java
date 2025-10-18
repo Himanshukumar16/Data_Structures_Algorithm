@@ -4,8 +4,9 @@ public class PrintMaximumSubArray {
 
     public void printMaximumSubArray(int[] nums) {
         int start = 0;
-        int end = 0;
         int sum = 0;
+        int answerStart = 0;
+        int answerEnd = 0;
         int max = Integer.MIN_VALUE;
 
         for (int j = 0; j < nums.length; j++) {
@@ -18,11 +19,16 @@ public class PrintMaximumSubArray {
                 max = Math.max(sum, max);
                 sum = 0;
             }
-            if (max == Math.max(sum, max)) end = j;
+            if (sum > max) {
+                max = sum;
+                answerStart = start;
+                answerEnd = j;
+            }
         }
         System.out.println(max);
-        for (int i = start; i <= end ; i++) {
-            System.out.print("["+ nums[i] + "]");
+        if (max <= 0) System.out.println("[]");
+        for (int i = answerStart; i < answerEnd; i++) {
+            System.out.print("[" + nums[i] + "]");
         }
     }
 }
