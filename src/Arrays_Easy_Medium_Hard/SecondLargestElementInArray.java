@@ -24,6 +24,8 @@ public class SecondLargestElementInArray {
                 large = arr[i];
             } else if (arr[i] < large && arr[i] > slarge) slarge = arr[i];
         }
+
+        if(slarge == Integer.MIN_VALUE) System.out.println(-1);
         System.out.println("Second Largest Number In The Array Is : " + slarge);
     }
 }
