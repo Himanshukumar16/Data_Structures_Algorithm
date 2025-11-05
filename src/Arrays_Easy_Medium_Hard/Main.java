@@ -129,14 +129,15 @@ public class Main {
 //        m.maximumSubarraySum(new int[]{-2,-3,-1,-5});
 
 //        Question 17 :
-        PrintMaximumSubArray m = new PrintMaximumSubArray();
-        m.printMaximumSubArray(new int[]{-5,6,-1});
+//        PrintMaximumSubArray m = new PrintMaximumSubArray();
+//        m.printMaximumSubArray(new int[]{-5,6,-1});
 
 //        Question 18 :
 //        StockBuyAndSell s = new StockBuyAndSell();
 //        s.stockBuyAndSell(new int[]{7,6,4,3,1});
 
 //        Question 19 :
-//        Question
+        AlternatePositiveAndNegativeInArray a = new AlternatePositiveAndNegativeInArray();
+        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4);
     }
 }
