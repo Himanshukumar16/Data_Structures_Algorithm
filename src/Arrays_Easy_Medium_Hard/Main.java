@@ -138,6 +138,6 @@ public class Main {
 
 //        Question 19 :
         AlternatePositiveAndNegativeInArray a = new AlternatePositiveAndNegativeInArray();
-        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4);
+        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4, -1, -6);
     }
 }
