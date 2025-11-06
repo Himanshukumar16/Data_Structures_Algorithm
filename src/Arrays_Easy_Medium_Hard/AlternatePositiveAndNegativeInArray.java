@@ -2,10 +2,10 @@ package Arrays_Easy_Medium_Hard;
 
 public class AlternatePositiveAndNegativeInArray {
     public void alternatePositiveAndNegativeInArray(int... arr) {
+        int n = arr.length;
 
 //        Brute-Force -> TC-> O(n) + O(n/2) ,SC-> O(n)
 
-//        int n = arr.length;
 //        int[] pos = new int[n / 2];
 //        int[] neg = new int[n / 2];
 //        int pind = 0;
@@ -27,11 +27,23 @@ public class AlternatePositiveAndNegativeInArray {
 //        }
 
 
+//        Optimal Solution -> TC-> O(), SC-> O().
 
+        int[] ans = new int[n];
+        int pind = 0;
+        int nind = 1;
+        for (int j : arr) {
+            if (j > 0) {
+                ans[pind] = j;
+                pind = pind + 2;
+            } else {
+                ans[nind] = j;
+                nind = nind + 2;
+            }
+        }
 
-
-
-        for (int i : arr) {
+//        for checking :
+        for (int i : ans) {
             System.out.println(i);
         }
     }
