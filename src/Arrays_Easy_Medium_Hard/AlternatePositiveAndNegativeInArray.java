@@ -9,7 +9,7 @@ public class AlternatePositiveAndNegativeInArray {
 
 //        Case 1 : if positives == negatives. :
 
-//        Brute-Force -> TC-> O(n) + O(n/2) ,SC-> O(n)
+//        Brute-Force -> TC-> O(n + n/2) ,SC-> O(n)
 
 //        int[] pos = new int[n / 2];
 //        int[] neg = new int[n / 2];
