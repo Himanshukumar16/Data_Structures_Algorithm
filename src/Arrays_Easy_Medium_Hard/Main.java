@@ -137,7 +137,11 @@ public class Main {
 //        s.stockBuyAndSell(new int[]{7,6,4,3,1});
 
 //        Question 19 :
-        AlternatePositiveAndNegativeInArray a = new AlternatePositiveAndNegativeInArray();
-        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4, -1, -6);
+//        AlternatePositiveAndNegativeInArray a = new AlternatePositiveAndNegativeInArray();
+//        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4, -1, -6);
+
+//        Question 20 :
+        NextPermutation n = new NextPermutation();
+        n.nextPermutation(new int[]{});
     }
 }
