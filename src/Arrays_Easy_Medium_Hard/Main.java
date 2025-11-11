@@ -142,6 +142,6 @@ public class Main {
 
 //        Question 20 :
         NextPermutation n = new NextPermutation();
-        n.nextPermutation(new int[]{});
+        n.nextPermutation(new int[]{1,3,2});
     }
 }
