@@ -143,5 +143,8 @@ public class Main {
 //        Question 20 :
         NextPermutation n = new NextPermutation();
         n.nextPermutation(new int[]{1,3,2});
+
+        ConcatenationOfArray c = new ConcatenationOfArray();
+        c.concatenationOfArray(new int[]{1,2,3,4});
     }
 }
