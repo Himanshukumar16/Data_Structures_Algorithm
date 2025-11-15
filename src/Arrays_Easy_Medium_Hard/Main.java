@@ -144,7 +144,12 @@ public class Main {
         NextPermutation n = new NextPermutation();
         n.nextPermutation(new int[]{1,3,2});
 
-        ConcatenationOfArray c = new ConcatenationOfArray();
-        c.concatenationOfArray(new int[]{1,2,3,4});
+//        Question 21 :
+//        ConcatenationOfArray c = new ConcatenationOfArray();
+//        c.concatenationOfArray(new int[]{1,2,3,4});
+
+//        Question 22 :
+        ShuffleTheArray s = new ShuffleTheArray();
+        s.ShuffleTheArray(new int[]{2,5,1,3,4,7},3);
     }
 }
