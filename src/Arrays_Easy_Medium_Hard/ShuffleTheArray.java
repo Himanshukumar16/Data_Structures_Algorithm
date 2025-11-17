@@ -17,5 +17,9 @@ public class ShuffleTheArray {
         for(int i = 0; i < nums.length; i++) {
 
         }
+
+        for(int i : nums){
+            System.out.println(i);
+        }
     }
 }
