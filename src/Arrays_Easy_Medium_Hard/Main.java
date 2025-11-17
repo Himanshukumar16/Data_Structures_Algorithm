@@ -150,6 +150,6 @@ public class Main {
 
 //        Question 22 :
         ShuffleTheArray s = new ShuffleTheArray();
-        s.ShuffleTheArray(new int[]{2,5,1,3,4,7},3);
+        s.ShuffleTheArray(new int[]{2,5,1,3,4,7,9,0},4);
     }
 }
