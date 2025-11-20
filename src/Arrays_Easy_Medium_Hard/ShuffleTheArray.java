@@ -2,6 +2,7 @@ package Arrays_Easy_Medium_Hard;
 
 public class ShuffleTheArray {
     public void ShuffleTheArray(int[] nums,int n) {
+//        TC -> O(n), SC -> O(n)...
         int[] odd = new int[nums.length / 2];
         int[] even = new int[nums.length / 2];
         int ind = 0;
