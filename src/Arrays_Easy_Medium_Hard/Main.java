@@ -144,6 +144,7 @@ public class Main {
         NextPermutation n = new NextPermutation();
         n.nextPermutation(new int[]{1,3,2});
 
+
 //        Question 21 :
 //        ConcatenationOfArray c = new ConcatenationOfArray();
 //        c.concatenationOfArray(new int[]{1,2,3,4});
