@@ -149,11 +149,11 @@ public class Main {
 //        c.concatenationOfArray(new int[]{1,2,3,4});
 
 //        Question 22 :
-        ShuffleTheArray s = new ShuffleTheArray();
-        s.ShuffleTheArray(new int[]{2,5,1,3,4,7,9,0},4);
+//        ShuffleTheArray s = new ShuffleTheArray();
+//        s.ShuffleTheArray(new int[]{2,5,1,3,4,7,9,0},4);
 
 //        Question 23 :
-        MaxConsecutiveOne m = new MaxConsecutiveOne();
-        m.maxConsecutiveOne(new int[]{1,2,3});
+//        MaxConsecutiveOne m = new MaxConsecutiveOne();
+//        m.maxConsecutiveOne(new int[]{1,2,3});
     }
 }
