@@ -21,17 +21,19 @@ public class NextPermutation {
             nums[preInd] = nums[ind];
             nums[ind] = indValue;
         }
-        for (int i = ind + 1; i < nums.length - 1; i++) {
-            for (int j = ind + 1; j < nums.length - 1; j++) {
-                if (nums[j] > nums[j + 1]) {
-                    int temp = nums[j];
-                    nums[j] = nums[j + 1];
-                    nums[j + 1] = temp;
-                }
-            }
-        }
+        rev(nums,ind + 1, nums.length - 1);
         for (int i : nums) {
-            System.out.println(i);
+            System.out.print(i + ", ");
+        }
+    }
+
+    public void rev(int[] arr, int low, int high) {
+        while (low < high) {
+            int temp = arr[low];
+            arr[low] = arr[high];
+            arr[high] = temp;
+            low++;
+            high--;
         }
     }
 }
