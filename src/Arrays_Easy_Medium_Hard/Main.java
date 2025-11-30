@@ -157,6 +157,7 @@ public class Main {
 //        m.maxConsecutiveOne(new int[]{1,2,3});
 
 //        Question 24 :
-
+        LeadersOfTheArray l = new LeadersOfTheArray();
+        l.leadersOfTheArray(new int[]{16,17,4,3,5,2});
     }
 }
