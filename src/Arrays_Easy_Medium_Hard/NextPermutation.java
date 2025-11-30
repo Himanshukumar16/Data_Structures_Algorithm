@@ -13,17 +13,19 @@ public class NextPermutation {
         int preInd = 0;
         if (ind != -1) {
             for (int i = ind + 1; i < nums.length; i++) {
-                if (nums[i] > nums[ind] && nums[i] < indValue) {
+                if (nums[i] > nums[ind] && nums[i] <= indValue) {
                     indValue = nums[i];
                     preInd = i;
                 }
             }
+            int temp = nums[preInd];
             nums[preInd] = nums[ind];
-            nums[ind] = indValue;
+            nums[ind] = temp;
         }
-        rev(nums,ind + 1, nums.length - 1);
+        rev(nums, ind + 1, nums.length - 1);
+
         for (int i : nums) {
-            System.out.print(i + ", ");
+            System.out.print(i+" , ");
         }
     }
 

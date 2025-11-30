@@ -141,8 +141,8 @@ public class Main {
 //        a.alternatePositiveAndNegativeInArray(3, 1, -2, -5, 2, -4, -1, -6);
 
 //        Question 20 :
-        NextPermutation n = new NextPermutation();
-        n.nextPermutation(new int[]{2, 3, 1, 3, 3});
+//        NextPermutation n = new NextPermutation();
+//        n.nextPermutation(new int[]{1,5,1});
 
 //        Question 21 :
 //        ConcatenationOfArray c = new ConcatenationOfArray();
@@ -155,5 +155,8 @@ public class Main {
 //        Question 23 :
 //        MaxConsecutiveOne m = new MaxConsecutiveOne();
 //        m.maxConsecutiveOne(new int[]{1,2,3});
+
+//        Question 24 :
+
     }
 }
