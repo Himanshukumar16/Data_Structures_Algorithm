@@ -3,12 +3,11 @@ package Arrays_Easy_Medium_Hard;
 public class LongestConsecutiveSequence {
     public void longestConsecutiveSequence(int[] nums) {
 
-        int longest = 1;
+        int longest = 0;
         for (int j : nums) {
-            int num = j;
             int count = 1;
-            while (ls(nums, num + 1)) {
-                num++;
+            while (ls(nums, j + 1)) {
+                j++;
                 count++;
             }
             longest = Math.max(longest, count);

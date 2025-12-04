@@ -154,11 +154,11 @@ public class Main {
 
 //        Question 23 :
 //        MaxConsecutiveOne m = new MaxConsecutiveOne();
-//        m.maxConsecutiveOne(new int[]{1,2,3});
+//        m.maxConsecutiveOne(new int[]{1, 2, 3});
 
 //        Question 24 :
 //        LeadersOfTheArray l = new LeadersOfTheArray();
-//        l.leadersOfTheArray(new int[]{16,17,4,3,5,2});
+//        l.leadersOfTheArray(new int[]{16, 17, 4, 3, 5, 2});
 
 //        Question 25 :
         LongestConsecutiveSequence l = new LongestConsecutiveSequence();
