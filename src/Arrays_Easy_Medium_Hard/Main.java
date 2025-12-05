@@ -162,7 +162,6 @@ public class Main {
 
 //        Question 25 :
         LongestConsecutiveSequence l = new LongestConsecutiveSequence();
-        l.longestConsecutiveSequence(new int[]{0, 3, 7, 2, 5, 8, 4, 6, 0, 1});
-
+        l.longestConsecutiveSequence(new int[]{});
     }
 }

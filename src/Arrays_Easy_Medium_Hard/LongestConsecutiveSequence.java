@@ -1,9 +1,12 @@
 package Arrays_Easy_Medium_Hard;
 
+import java.util.Arrays;
+
 public class LongestConsecutiveSequence {
     public void longestConsecutiveSequence(int[] nums) {
 
 //        Brute :->
+
 //        int longest = 0;
 //        for (int j : nums) {
 //            int count = 1;
@@ -18,26 +21,30 @@ public class LongestConsecutiveSequence {
 
 //        Better :->
 
-//        for (int i = 0; i < nums.length; i++) {
-//            for (int j = 0; j < nums.length - i - 1; j++) {
-//                if (nums[j] > nums[j + 1]) {
-//                    int temp = nums[j];
-//                    nums[j] = nums[j + 1];
-//                    nums[j + 1] = temp;
-//                }
-//            }
-//        }
+//        Arrays.sort(nums);
 //        int longest = 0;
-//        int cursmall = Integer.MIN_VALUE;
+//        int lstsmall = Integer.MIN_VALUE;
 //        int count = 1;
+//        for (int num : nums) {
+//            if (num - 1 == lstsmall) {
+//                count++;
+//                lstsmall = num;
+//            } else if (num != lstsmall) {
+//                count = 1;
+//                lstsmall = num;
+//            }
+//            longest = Math.max(longest, count);
+//        }
+//        System.out.println(longest);
 
 
+//        Optimal solution :
 
-        for(int i : nums) {
-            System.out.print(i+" ");
-        }
+
     }
 
+
+//    ls function:
 //    private boolean ls(int[] nums, int num) {
 //        for (int j : nums) {
 //            if (j == num) {
