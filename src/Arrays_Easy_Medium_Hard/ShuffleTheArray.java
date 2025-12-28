@@ -25,6 +25,11 @@ public class ShuffleTheArray {
                 eind++;
             }
         }
+
+//        Optimal solution :
+
+
+
         for (int i : nums) {
             System.out.println(i);
         }

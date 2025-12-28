@@ -1,6 +1,6 @@
 package Arrays_Easy_Medium_Hard;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class LongestConsecutiveSequence {
     public void longestConsecutiveSequence(int[] nums) {
@@ -38,9 +38,25 @@ public class LongestConsecutiveSequence {
 //        System.out.println(longest);
 
 
-//        Optimal solution :
+//        Optimal solution : Tc -> O(n); SC -> O(n)....
 
-
+        Set<Integer> set = new HashSet<>();
+        for (int i : nums) {
+            set.add(i);
+        }
+        int longest = Integer.MIN_VALUE;
+        for (int i : set) {
+            if (!set.contains(i - 1)) {
+                int count = 1;
+                int x = i + 1;
+                while (set.contains(x)) {
+                    count++;
+                    x++;
+                }
+                longest = Math.max(count, longest);
+            }
+        }
+        System.out.println(longest);
     }
 
 

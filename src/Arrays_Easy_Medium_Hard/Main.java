@@ -161,7 +161,10 @@ public class Main {
 //        l.leadersOfTheArray(new int[]{16, 17, 4, 3, 5, 2});
 
 //        Question 25 :
-        LongestConsecutiveSequence l = new LongestConsecutiveSequence();
-        l.longestConsecutiveSequence(new int[]{});
+//        LongestConsecutiveSequence l = new LongestConsecutiveSequence();
+//        l.longestConsecutiveSequence(new int[]{100,4,200,1,3,2});
+
+
+
     }
 }
