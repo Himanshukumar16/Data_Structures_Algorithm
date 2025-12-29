@@ -164,7 +164,11 @@ public class Main {
 //        LongestConsecutiveSequence l = new LongestConsecutiveSequence();
 //        l.longestConsecutiveSequence(new int[]{100,4,200,1,3,2});
 
-
-
+//        Question 26 :
+        SetMatrixZeroes s = new SetMatrixZeroes();
+        s.setMatrixZeroes(new int[][]{
+                {0, 1, 2, 1},
+                {3, 4, 0, 2},
+                {1, -8, 2, 5}});
     }
 }
