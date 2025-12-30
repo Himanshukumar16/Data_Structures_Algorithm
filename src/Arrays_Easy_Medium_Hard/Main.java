@@ -167,7 +167,7 @@ public class Main {
 //        Question 26 :
         SetMatrixZeroes s = new SetMatrixZeroes();
         s.setMatrixZeroes(new int[][]{
-                {0, 1, 2, 1},
+                {8, 1, 2, 1},
                 {3, 4, 0, 2},
                 {1, -8, 2, 5}});
     }
