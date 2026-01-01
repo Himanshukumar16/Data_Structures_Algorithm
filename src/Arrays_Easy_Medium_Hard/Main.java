@@ -172,6 +172,6 @@ public class Main {
 //                {1, -8, 2, 5}});
 
         PlusOne po = new PlusOne();
-        po.plusone(new int[]{9,2,9});
+        po.plusone(new int[]{9,9});
     }
 }
