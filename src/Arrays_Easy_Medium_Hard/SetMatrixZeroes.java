@@ -37,7 +37,8 @@ public class SetMatrixZeroes {
 
 //        Better Approach :->
 
-        int[] col = new int[nums.length];
+        int[] col = new int[nums[0].length];
+
 
 //        for printing Matrix :
 

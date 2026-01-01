@@ -165,10 +165,13 @@ public class Main {
 //        l.longestConsecutiveSequence(new int[]{100,4,200,1,3,2});
 
 //        Question 26 :
-        SetMatrixZeroes s = new SetMatrixZeroes();
-        s.setMatrixZeroes(new int[][]{
-                {8, 1, 2, 1},
-                {3, 4, 0, 2},
-                {1, -8, 2, 5}});
+//        SetMatrixZeroes s = new SetMatrixZeroes();
+//        s.setMatrixZeroes(new int[][]{
+//                {8, 1, 2, 1},
+//                {3, 4, 0, 2},
+//                {1, -8, 2, 5}});
+
+        PlusOne po = new PlusOne();
+        po.plusone(new int[]{9,2,9});
     }
 }
