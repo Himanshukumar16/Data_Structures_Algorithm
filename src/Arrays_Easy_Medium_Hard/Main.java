@@ -171,7 +171,12 @@ public class Main {
 //                {3, 4, 0, 2},
 //                {1, -8, 2, 5}});
 
-        PlusOne po = new PlusOne();
-        po.plusone(new int[]{9,9});
+//        Plus-One{Leetcode.}
+//        PlusOne po = new PlusOne();
+//        po.plusone(new int[]{9,8,7,6,5,4,3,2,1,0});
+
+//        Leetcode 961 :
+        NRepeatedElementInSize2NArray n = new NRepeatedElementInSize2NArray();
+        n.nRepeatedElementInSize2NArray(new int[]{2,1,2,5,3,2});
     }
 }
