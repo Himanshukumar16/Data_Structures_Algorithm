@@ -2,7 +2,8 @@ package Arrays_Easy_Medium_Hard;
 
 public class SetMatrixZeroes {
     public void setMatrixZeroes(int[][] nums) {
-//        Brute Force :->
+
+//        Brute Force :-> TC -> O(n^3) approx.
 
 ////        going through all the elements.
 //
@@ -35,9 +36,37 @@ public class SetMatrixZeroes {
 //            }
 //        }
 
-//        Better Approach :->
 
-        int[] col = new int[nums[0].length];
+//        Better Approach :-> TC -> n^2, SC -> O(n+m)...
+
+//        array to store the index of number which contains 0.
+//        int[] col = new int[nums[0].length];
+//        int[] row = new int[nums.length];
+//
+////        iterating through the array to see if there is 0 in the matrix or not.
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = 0; j < nums[i].length; j++) {
+////                changing value to the special character.
+//                if (nums[i][j] == 0) {
+//                    col[j] = '@';
+//                    row[i] = '@';
+//                }
+//            }
+//        }
+//
+////        changing the value of special character to the 0.
+//        for (int i = 0; i < row.length; i++) {
+//            for (int j = 0; j < col.length; j++) {
+//
+//                if (row[i] == '@' || col[j] == '@') {
+//                    nums[i][j] = 0;
+//                }
+//            }
+//        }
+
+
+//        Optimal solution :-> TC -> O(), SC -> O().
+
 
 
 //        for printing Matrix :
