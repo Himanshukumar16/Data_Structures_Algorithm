@@ -166,10 +166,10 @@ public class Main {
 
 //        Question 26 :
         SetMatrixZeroes s = new SetMatrixZeroes();
-        s.setMatrixZeroes(new int[][]{
-                {8, 1, 2, 1},
-                {3, 4, 0, 2},
-                {1, -8, 2, 5}});
+//        s.setMatrixZeroes(new int[][]{
+//                {8, 1, 2, 1},
+//                {3, 4, 0, 2},
+//                {1, -8, 2, 5}});
 
 //        Plus-One{Leetcode.}
 //        PlusOne po = new PlusOne();
@@ -178,5 +178,8 @@ public class Main {
 //        Leetcode 961 :
 //        NRepeatedElementInSize2NArray n = new NRepeatedElementInSize2NArray();
 //        n.nRepeatedElementInSize2NArray(new int[]{2,1,2,5,3,2});
+
+        FourDivisor f = new FourDivisor();
+        f.fourDivisor(new int[]{1,2,3,4,5});
     }
 }

@@ -68,17 +68,16 @@ public class SetMatrixZeroes {
 //        Optimal solution :-> TC -> O(), SC -> O().
 
 
-
 //        for printing Matrix :
 
-        for (int[] i : nums) {
-            for (int j : i) {
-                System.out.print(j + " ");
-            }
-
-//            for printing the result in presentable way.
-            System.out.println();
-        }
+//        for (int[] i : nums) {
+//            for (int j : i) {
+//                System.out.print(j + " ");
+//            }
+//
+////            for printing the result in presentable way.
+//            System.out.println();
+//        }
     }
 
 //    //    Changing column to @(special character).
