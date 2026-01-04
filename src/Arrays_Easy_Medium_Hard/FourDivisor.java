@@ -1,5 +1,7 @@
 package Arrays_Easy_Medium_Hard;
 
+import java.util.Arrays;
+
 public class FourDivisor {
     public void fourDivisor(int[] nums) {
 
