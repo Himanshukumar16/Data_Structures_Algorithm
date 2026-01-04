@@ -184,7 +184,7 @@ public class Main {
 //        f.fourDivisor(new int[]{1,2,3,65,4,5});
 
 //        Leetcode 485 :
-        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
-        m.maxConsecutiveOnes(new int[]{1,1,0,1,1,1});
+//        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
+//        m.maxConsecutiveOnes(new int[]{1,1,0,1,1,1});
     }
 }
