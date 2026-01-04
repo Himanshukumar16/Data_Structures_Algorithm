@@ -179,7 +179,12 @@ public class Main {
 //        NRepeatedElementInSize2NArray n = new NRepeatedElementInSize2NArray();
 //        n.nRepeatedElementInSize2NArray(new int[]{2,1,2,5,3,2});
 
-        FourDivisor f = new FourDivisor();
-        f.fourDivisor(new int[]{1,2,3,65,4,5});
+//        Four Divisor{Leetcode}.
+//        FourDivisor f = new FourDivisor();
+//        f.fourDivisor(new int[]{1,2,3,65,4,5});
+
+//        Leetcode 485 :
+        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
+        m.maxConsecutiveOnes(new int[]{1,1,0,1,1,1});
     }
 }
