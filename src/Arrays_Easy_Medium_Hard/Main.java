@@ -166,11 +166,9 @@ public class Main {
 
 //        Question 26 :
         SetMatrixZeroes s = new SetMatrixZeroes();
-//        s.setMatrixZeroes(new int[][]{
-//                {8, 1, 2, 1},
-//                {3, 4, 0, 2},
-//                {1, -8, 2, 5}});
-
+        s.setMatrixZeroes(new int[][]{
+                {1},
+                {0}});
 //        Plus-One{Leetcode.}
 //        PlusOne po = new PlusOne();
 //        po.plusone(new int[]{9,8,7,6,5,4,3,2,1,0});
@@ -190,11 +188,11 @@ public class Main {
         SetMismatch m = new SetMismatch();
 //        m.setMismatch(new int[]{1, 2, 2, 4});
 
-        MaximumMatrixSum ms = new MaximumMatrixSum();
-        ms.maximumatrixSum(new int[][]{
-                {2,9,3},
-                {5,4,-4},
-                {1,7,1}
-        });
+//        MaximumMatrixSum ms = new MaximumMatrixSum();
+//        ms.maximumatrixSum(new int[][]{
+//                {2,9,3},
+//                {5,4,-4},
+//                {1,7,1}
+//        });
     }
 }

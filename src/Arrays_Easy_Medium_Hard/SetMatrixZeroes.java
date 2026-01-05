@@ -65,19 +65,43 @@ public class SetMatrixZeroes {
 //        }
 
 
-//        Optimal solution :-> TC -> O(), SC -> O().
+//        Optimal solution :-> TC -> O(n^2), SC -> O(1).
 
+        int col0 = 0;
+        for(int i = 0; i < nums.length; i++) {
+            col0 = '@';
+            for(int j = 0; j < nums[i].length; j++) {
+                if(nums[i][j] == 0) {
+                    nums[i][0] = 0;
+                    if(j != 0) nums[0][j] = 0;
+                    else col0 = 0;
+                }
+            }
+        }
+        for(int i = 1; i < nums.length; i++) {
+            for(int j = 1; j < nums[0].length; j++) {
+                if(nums[i][0] == 0 || nums[0][j] == 0) {
+                    nums[i][j] = 0;
+                }
+            }
+        }
+        if (nums[0][0] == 0) {
+            for(int j = 1; j < nums[0].length; j++) nums[0][j] = 0;
+        }
+        if (col0 == 0) {
+            for(int i = 0; i < nums.length; i++) nums[i][0] = 0;
+        }
 
 //        for printing Matrix :
 
-//        for (int[] i : nums) {
-//            for (int j : i) {
-//                System.out.print(j + " ");
-//            }
-//
-////            for printing the result in presentable way.
-//            System.out.println();
-//        }
+        for (int[] i : nums) {
+            for (int j : i) {
+                System.out.print(j + " ");
+            }
+
+//            for printing the result in presentable way.
+            System.out.println();
+        }
     }
 
 //    //    Changing column to @(special character).
