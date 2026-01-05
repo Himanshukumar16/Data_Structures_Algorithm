@@ -186,5 +186,15 @@ public class Main {
 //        Leetcode 485 :
 //        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
 //        m.maxConsecutiveOnes(new int[]{1,1,0,1,1,1});
+
+        SetMismatch m = new SetMismatch();
+//        m.setMismatch(new int[]{1, 2, 2, 4});
+
+        MaximumMatrixSum ms = new MaximumMatrixSum();
+        ms.maximumatrixSum(new int[][]{
+                {2,9,3},
+                {5,4,-4},
+                {1,7,1}
+        });
     }
 }
