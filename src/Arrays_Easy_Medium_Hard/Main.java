@@ -210,6 +210,7 @@ public class Main {
 //                {5,6,7,8},
 //                {9,10,11,12}});
 
-
+        CountSubarraySumEqualToK c = new CountSubarraySumEqualToK();
+        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
     }
 }
