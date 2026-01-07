@@ -195,13 +195,21 @@ public class Main {
 
 
         SetMismatch m = new SetMismatch();
-        m.setMismatch(new int[]{1, 2, 2, 4});
+//        m.setMismatch(new int[]{1, 2, 2, 4});
 
-        RotateImage r = new RotateImage();
-        r.rotateImage(new int[][]{
-                {5,1,9,11},
-                {2,4,8,10},
-                {13,3,6,7},
-                {15,14,12,16}});
+//        RotateImage r = new RotateImage();
+//        r.rotateImage(new int[][]{
+//                {5,1,9,11},
+//                {2,4,8,10},
+//                {13,3,6,7},
+//                {15,14,12,16}});
+
+//        SpiralMatrix s = new SpiralMatrix();
+//        s.spiralMatrix(new int[][]{
+//                {1,2,3,4},
+//                {5,6,7,8},
+//                {9,10,11,12}});
+
+
     }
 }
