@@ -165,10 +165,11 @@ public class Main {
 //        l.longestConsecutiveSequence(new int[]{100,4,200,1,3,2});
 
 //        Question 26 :
-        SetMatrixZeroes s = new SetMatrixZeroes();
-        s.setMatrixZeroes(new int[][]{
-                {1},
-                {0}});
+//        SetMatrixZeroes s = new SetMatrixZeroes();
+//        s.setMatrixZeroes(new int[][]{
+//                {1},
+//                {0}});
+
 //        Plus-One{Leetcode.}
 //        PlusOne po = new PlusOne();
 //        po.plusone(new int[]{9,8,7,6,5,4,3,2,1,0});
@@ -185,14 +186,21 @@ public class Main {
 //        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
 //        m.maxConsecutiveOnes(new int[]{1,1,0,1,1,1});
 
-        SetMismatch m = new SetMismatch();
-//        m.setMismatch(new int[]{1, 2, 2, 4});
-
 //        MaximumMatrixSum ms = new MaximumMatrixSum();
 //        ms.maximumatrixSum(new int[][]{
 //                {2,9,3},
 //                {5,4,-4},
 //                {1,7,1}
 //        });
+
+
+        SetMismatch m = new SetMismatch();
+        m.setMismatch(new int[]{1, 2, 2, 4});
+
+        RotateImage r = new RotateImage();
+        r.rotateImage(new int[][]{
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}});
     }
 }
