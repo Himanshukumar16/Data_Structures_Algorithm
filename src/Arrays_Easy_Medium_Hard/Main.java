@@ -1,7 +1,5 @@
 package Arrays_Easy_Medium_Hard;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        Question 1 :
@@ -193,9 +191,8 @@ public class Main {
 //                {1,7,1}
 //        });
 
-
-        SetMismatch m = new SetMismatch();
-//        m.setMismatch(new int[]{1, 2, 2, 4});
+        CheckifArrayIsSortedandRotated m = new CheckifArrayIsSortedandRotated();
+        m.checkifArrayIsSortedandRotated(new int[]{1,2,3});
 
 //        RotateImage r = new RotateImage();
 //        r.rotateImage(new int[][]{
@@ -210,7 +207,7 @@ public class Main {
 //                {5,6,7,8},
 //                {9,10,11,12}});
 
-        CountSubarraySumEqualToK c = new CountSubarraySumEqualToK();
-        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
+//        CountSubarraySumEqualToK c = new CountSubarraySumEqualToK();
+//        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
     }
 }
