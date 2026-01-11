@@ -191,8 +191,8 @@ public class Main {
 //                {1,7,1}
 //        });
 
-        CheckifArrayIsSortedandRotated m = new CheckifArrayIsSortedandRotated();
-        m.checkifArrayIsSortedandRotated(new int[]{1,2,3});
+//        CheckifArrayIsSortedandRotated m = new CheckifArrayIsSortedandRotated();
+//        m.checkifArrayIsSortedandRotated(new int[]{1,2,3});
 
 //        RotateImage r = new RotateImage();
 //        r.rotateImage(new int[][]{
@@ -209,5 +209,8 @@ public class Main {
 
 //        CountSubarraySumEqualToK c = new CountSubarraySumEqualToK();
 //        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
+
+        PascalTriangleType1 p = new PascalTriangleType1();
+        p.pascalTriangleType1(4,4);
     }
 }
