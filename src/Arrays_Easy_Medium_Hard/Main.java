@@ -211,6 +211,6 @@ public class Main {
 //        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
 
         PascalTriangleType1 p = new PascalTriangleType1();
-        p.pascalTriangleType1(4,4);
+        p.pascalTriangleType1(5,3);
     }
 }
