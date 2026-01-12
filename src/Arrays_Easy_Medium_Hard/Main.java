@@ -210,7 +210,10 @@ public class Main {
 //        CountSubarraySumEqualToK c = new CountSubarraySumEqualToK();
 //        c.countSubarraySumEqualToK(new int[]{-1,-1,1},0);
 
-        PascalTriangleType1 p = new PascalTriangleType1();
-        p.pascalTriangleType1(5,3);
+//        PascalTriangleType1 p = new PascalTriangleType1();
+//        p.pascalTriangleType1(5,3);
+
+        PascalTriangleType2 p = new PascalTriangleType2();
+        p.pascalTriangleType2(30);
     }
 }
