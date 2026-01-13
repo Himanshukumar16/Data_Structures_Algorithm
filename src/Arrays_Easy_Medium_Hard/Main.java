@@ -213,7 +213,10 @@ public class Main {
 //        PascalTriangleType1 p = new PascalTriangleType1();
 //        p.pascalTriangleType1(5,3);
 
-        PascalTriangleType2 p = new PascalTriangleType2();
-        p.pascalTriangleType2(30);
+//        PascalTriangleType2 p = new PascalTriangleType2();
+//        p.pascalTriangleType2(30);
+
+        PascalTriangleType3 p = new PascalTriangleType3();
+        p.pascalTriangleType2(5);
     }
 }
