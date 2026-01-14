@@ -219,7 +219,10 @@ public class Main {
 //        PascalTriangleType3 p = new PascalTriangleType3();
 //        p.pascalTriangleType2(5);
 
-        MajorityElement2 m = new MajorityElement2();
-        m.majorityElement2(new int[]{1,2,3});
+//        MajorityElement2 m = new MajorityElement2();
+//        m.majorityElement2(new int[]{1,2,3});
+
+        ThreeSum t = new ThreeSum();
+        t.threeSum(new int[]{1,2,3});
     }
 }
