@@ -222,7 +222,10 @@ public class Main {
 //        MajorityElement2 m = new MajorityElement2();
 //        m.majorityElement2(new int[]{1,2,3});
 
-        ThreeSum t = new ThreeSum();
-        t.threeSum(new int[]{1,2,3});
+//        ThreeSum t = new ThreeSum();
+//        t.threeSum(new int[]{1,2,3});
+
+        FourSum f = new FourSum();
+        f.fourSum(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5}, 8);
     }
 }
