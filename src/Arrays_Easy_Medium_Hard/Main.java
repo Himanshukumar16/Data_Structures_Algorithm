@@ -228,7 +228,10 @@ public class Main {
 //        FourSum f = new FourSum();
 //        f.fourSum(new int[]{1,1,1,2,2,2,3,3,3,4,4,4,5,5}, 8);
 
-        LargestSubarrayWith0Sum l = new LargestSubarrayWith0Sum();
-        l.largestSubarrayWith0Sum(new int[]{1,2,3});
+//        LargestSubarrayWith0Sum l = new LargestSubarrayWith0Sum();
+//        l.largestSubarrayWith0Sum(new int[]{1,2,3});
+
+        CountSubarrayWhoseXOREqualToK c = new CountSubarrayWhoseXOREqualToK();
+        c.countSubarrayWhoseXOREqualToK(new int[]{4, 2, 2, 6, 4},6);
     }
 }
