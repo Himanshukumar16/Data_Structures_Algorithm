@@ -231,7 +231,10 @@ public class Main {
 //        LargestSubarrayWith0Sum l = new LargestSubarrayWith0Sum();
 //        l.largestSubarrayWith0Sum(new int[]{1,2,3});
 
-        CountSubarrayWhoseXOREqualToK c = new CountSubarrayWhoseXOREqualToK();
-        c.countSubarrayWhoseXOREqualToK(new int[]{4, 2, 2, 6, 4},6);
+//        CountSubarrayWhoseXOREqualToK c = new CountSubarrayWhoseXOREqualToK();
+//        c.countSubarrayWhoseXOREqualToK(new int[]{4, 2, 2, 6, 4},6);
+
+        MergeOverlapping m = new MergeOverlapping();
+        m.mergeOverlapping(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18},{2,4}});
     }
 }
