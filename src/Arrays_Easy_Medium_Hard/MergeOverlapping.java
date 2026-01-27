@@ -7,7 +7,7 @@ import java.util.List;
 public class MergeOverlapping {
     public void mergeOverlapping(int[][] intervals) {
 
-//        Brute Force -> TC -> O(nlogn), SC -> O(n).
+//        Brute Force -> TC -> O(n^2), SC -> O(n).
 
         List<List<Integer>> lst = new ArrayList<>();
         Arrays.sort(intervals, (a, b) -> {
@@ -31,7 +31,7 @@ public class MergeOverlapping {
 //        }
 
 
-//      Optimal solution : TC -> O(), SC -> O().
+//      Optimal solution : TC -> O(nlogn), SC -> O(n).
 
         for (int[] interval : intervals) {
             if (lst.isEmpty() || lst.getLast().get(1) < interval[0]) {
