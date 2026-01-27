@@ -237,6 +237,7 @@ public class Main {
 //        MergeOverlapping m = new MergeOverlapping();
 //        m.mergeOverlapping(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}});
 
-
+        MergeSortedArray m = new MergeSortedArray();
+        m.mergeSortedArray(new int[]{1,2,3,0},new int[]{2,5,6},3,3);
     }
 }
