@@ -243,7 +243,10 @@ public class Main {
 //        MissingAndRepeatingNumber m = new MissingAndRepeatingNumber();
 //        m.missingAndRepeatingNumber(new int[]{4, 3, 6, 2, 1, 1}, 6);
 
-        CountInversion c = new CountInversion();
-        c.countInversion(new int[]{2, 4, 1, 3 ,5});
+//        CountInversion c = new CountInversion();
+//        c.countInversion(new int[]{2, 4, 1, 3 ,5});
+
+        ReversePairs r = new ReversePairs();
+        r.reversePairs(new int[]{1,3,2,3,1});
     }
 }
