@@ -240,7 +240,10 @@ public class Main {
 //        MergeSortedArray m = new MergeSortedArray();
 //        m.mergeSortedArray(new int[]{1,2,3,0},new int[]{2,5,6},3,3);
 
-        MissingAndRepeatingNumber m = new MissingAndRepeatingNumber();
-        m.missingAndRepeatingNumber(new int[]{4, 3, 6, 2, 1, 1}, 6);
+//        MissingAndRepeatingNumber m = new MissingAndRepeatingNumber();
+//        m.missingAndRepeatingNumber(new int[]{4, 3, 6, 2, 1, 1}, 6);
+
+        CountInversion c = new CountInversion();
+        c.countInversion(new int[]{2, 4, 1, 3 ,5});
     }
 }
