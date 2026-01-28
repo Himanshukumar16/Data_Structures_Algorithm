@@ -58,18 +58,5 @@ public class MergeSortedArray {
 //        for (int i : num2) {
 //            System.out.print(i+" ");
 //        }
-
-
-//        optimal 2 : TC -> O(), SC -> O().
-
-        double len = n + m;
-        double gap = Math.ceil(len);
-        while (gap > 0) {
-            int left = 0;
-            double right = left + gap;
-            while (right < len) {
-
-            }
-        }
     }
 }
