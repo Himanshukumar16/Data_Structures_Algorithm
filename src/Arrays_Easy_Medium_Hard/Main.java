@@ -247,6 +247,6 @@ public class Main {
 //        c.countInversion(new int[]{2, 4, 1, 3 ,5});
 
         ReversePairs r = new ReversePairs();
-        r.reversePairs(new int[]{1,3,2,3,1});
+        r.reversePairs(new int[]{2147483647,2147483647,2147483647,2147483647,2147483647,2147483647});
     }
 }
