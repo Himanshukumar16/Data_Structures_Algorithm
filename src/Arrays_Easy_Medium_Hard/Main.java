@@ -249,7 +249,7 @@ public class Main {
 //        ReversePairs r = new ReversePairs();
 //        r.reversePairs(new int[]{2147483647,2147483647,2147483647,2147483647,2147483647,2147483647});
 
-        MaximumProductSubarray m = new MaximumProductSubarray();
-        m.maximumProductSubarray(new int[]{2,3,-2,4});
+//        MaximumProductSubarray m = new MaximumProductSubarray();
+//        m.maximumProductSubarray(new int[]{2,3,-2,4});
     }
 }
