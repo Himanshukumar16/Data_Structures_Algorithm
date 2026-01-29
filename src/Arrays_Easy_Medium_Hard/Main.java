@@ -246,7 +246,10 @@ public class Main {
 //        CountInversion c = new CountInversion();
 //        c.countInversion(new int[]{2, 4, 1, 3 ,5});
 
-        ReversePairs r = new ReversePairs();
-        r.reversePairs(new int[]{2147483647,2147483647,2147483647,2147483647,2147483647,2147483647});
+//        ReversePairs r = new ReversePairs();
+//        r.reversePairs(new int[]{2147483647,2147483647,2147483647,2147483647,2147483647,2147483647});
+
+        MaximumProductSubarray m = new MaximumProductSubarray();
+        m.maximumProductSubarray(new int[]{2,3,-2,4});
     }
 }
