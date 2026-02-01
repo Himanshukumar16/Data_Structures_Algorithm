@@ -12,7 +12,7 @@ public class Main {
 //        ImplementUpperBound i = new ImplementUpperBound();
 //        i.implementUpperBound(new int[]{2, 3, 7, 10, 11, 11, 25},11);
 
-        SerchInsertPosition s = new SerchInsertPosition();
-        s.serchInsertPosition(new int[]{1, 3, 5, 6}, 5);
+        SearchInsertPosition s = new SearchInsertPosition();
+        s.searchInsertPosition(new int[]{1, 3, 5, 6}, 5);
     }
 }
