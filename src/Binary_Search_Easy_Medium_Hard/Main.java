@@ -15,7 +15,10 @@ public class Main {
 //        SearchInsertPosition s = new SearchInsertPosition();
 //        s.searchInsertPosition(new int[]{1, 3, 5, 6}, 5);
 
-        FloorInSortedArray f = new FloorInSortedArray();
-        f.floorInSortedArray(new int[]{1, 2, 8, 10, 10, 12, 19},0);
+//        FloorInSortedArray f = new FloorInSortedArray();
+//        f.floorInSortedArray(new int[]{1, 2, 8, 10, 10, 12, 19},0);
+
+        CeilInSortedArray c = new CeilInSortedArray();
+        c.ceilInSortedArray(new int[]{1,1, 2, 8, 10, 11, 12, 19},0);
     }
 }
