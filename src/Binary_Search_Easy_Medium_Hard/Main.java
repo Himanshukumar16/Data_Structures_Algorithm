@@ -18,7 +18,10 @@ public class Main {
 //        FloorInSortedArray f = new FloorInSortedArray();
 //        f.floorInSortedArray(new int[]{1, 2, 8, 10, 10, 12, 19},0);
 
-        CeilInSortedArray c = new CeilInSortedArray();
-        c.ceilInSortedArray(new int[]{1,1, 2, 8, 10, 11, 12, 19},0);
+//        CeilInSortedArray c = new CeilInSortedArray();
+//        c.ceilInSortedArray(new int[]{1,1, 2, 8, 10, 11, 12, 19},0);
+
+        FirstAndLastOccurrence f = new FirstAndLastOccurrence();
+        f.firstAndLastOccurrence(new int[]{5,7,7,7,8,8,10},8);
     }
 }
