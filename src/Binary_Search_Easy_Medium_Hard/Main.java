@@ -24,7 +24,13 @@ public class Main {
 //        FirstAndLastOccurrence f = new FirstAndLastOccurrence();
 //        f.firstAndLastOccurrence(new int[]{5,7,7,7,8,8,10},8);
 
-        NumberOfOccurrence n = new NumberOfOccurrence();
-        n.numberOfOccurrence(new int[]{1, 1, 2, 2, 2, 3},10);
+//        NumberOfOccurrence n = new NumberOfOccurrence();
+//        n.numberOfOccurrence(new int[]{1, 1, 2, 2, 2, 3},10);
+
+//        SearchElementInRotatedSortedArrayOne s = new SearchElementInRotatedSortedArrayOne();
+//        s.searchElementInRotatedSortedArrayOne(new int[]{5,1,3},3);
+
+        SearchElementInRotatedSortedArrayTwo s = new SearchElementInRotatedSortedArrayTwo();
+        s.searchElementInRotatedSortedArrayTwo(new int[]{2,5,6,0,0,1,2},0);
     }
 }
