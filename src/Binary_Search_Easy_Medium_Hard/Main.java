@@ -21,7 +21,10 @@ public class Main {
 //        CeilInSortedArray c = new CeilInSortedArray();
 //        c.ceilInSortedArray(new int[]{1,1, 2, 8, 10, 11, 12, 19},0);
 
-        FirstAndLastOccurrence f = new FirstAndLastOccurrence();
-        f.firstAndLastOccurrence(new int[]{5,7,7,7,8,8,10},8);
+//        FirstAndLastOccurrence f = new FirstAndLastOccurrence();
+//        f.firstAndLastOccurrence(new int[]{5,7,7,7,8,8,10},8);
+
+        NumberOfOccurrence n = new NumberOfOccurrence();
+        n.numberOfOccurrence(new int[]{1, 1, 2, 2, 2, 3},10);
     }
 }
