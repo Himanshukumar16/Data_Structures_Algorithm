@@ -30,7 +30,10 @@ public class Main {
 //        SearchElementInRotatedSortedArrayOne s = new SearchElementInRotatedSortedArrayOne();
 //        s.searchElementInRotatedSortedArrayOne(new int[]{5,1,3},3);
 
-        SearchElementInRotatedSortedArrayTwo s = new SearchElementInRotatedSortedArrayTwo();
-        s.searchElementInRotatedSortedArrayTwo(new int[]{3,1},1);
+//        SearchElementInRotatedSortedArrayTwo s = new SearchElementInRotatedSortedArrayTwo();
+//        s.searchElementInRotatedSortedArrayTwo(new int[]{3,1},1);
+
+        FindMinimumInRotatedSortedArray f = new FindMinimumInRotatedSortedArray();
+        f.findMinimumInRotatedSortedArray(new int[]{3, 4, 5, 1, 2});
     }
 }
