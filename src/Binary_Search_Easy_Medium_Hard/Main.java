@@ -31,6 +31,6 @@ public class Main {
 //        s.searchElementInRotatedSortedArrayOne(new int[]{5,1,3},3);
 
         SearchElementInRotatedSortedArrayTwo s = new SearchElementInRotatedSortedArrayTwo();
-        s.searchElementInRotatedSortedArrayTwo(new int[]{2,5,6,0,0,1,2},0);
+        s.searchElementInRotatedSortedArrayTwo(new int[]{3,1},1);
     }
 }
