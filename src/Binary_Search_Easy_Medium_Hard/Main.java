@@ -36,7 +36,10 @@ public class Main {
 //        FindMinimumInRotatedSortedArray f = new FindMinimumInRotatedSortedArray();
 //        f.findMinimumInRotatedSortedArray(new int[]{3, 4, 5, 1, 2});
 
-        HowManyTimesArrayIsRotated h = new HowManyTimesArrayIsRotated();
-        h.howManyTimesArrayIsRotated(new int[]{4,1,2,3});
+//        HowManyTimesArrayIsRotated h = new HowManyTimesArrayIsRotated();
+//        h.howManyTimesArrayIsRotated(new int[]{4,1,2,3});
+
+        SingleElementInSortedArray s = new SingleElementInSortedArray();
+        s.singleElementInSortedArray(new int[]{1,1,2});
     }
 }
