@@ -39,7 +39,10 @@ public class Main {
 //        HowManyTimesArrayIsRotated h = new HowManyTimesArrayIsRotated();
 //        h.howManyTimesArrayIsRotated(new int[]{4,1,2,3});
 
-        SingleElementInSortedArray s = new SingleElementInSortedArray();
-        s.singleElementInSortedArray(new int[]{1,1,2});
+//        SingleElementInSortedArray s = new SingleElementInSortedArray();
+//        s.singleElementInSortedArray(new int[]{1,1,2});
+
+        PeakElement p = new PeakElement();
+        p.peakElement(new int[]{1, 2, 3, 1});
     }
 }
