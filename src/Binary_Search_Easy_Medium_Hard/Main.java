@@ -42,7 +42,10 @@ public class Main {
 //        SingleElementInSortedArray s = new SingleElementInSortedArray();
 //        s.singleElementInSortedArray(new int[]{1,1,2});
 
-        PeakElement p = new PeakElement();
-        p.peakElement(new int[]{1, 2, 3, 1});
+//        PeakElement p = new PeakElement();
+//        p.peakElement(new int[]{1, 5, 1, 2, 1});
+
+        FindingSquareRoot f = new FindingSquareRoot();
+        f.findingSquareRoot(2147483647);
     }
 }
