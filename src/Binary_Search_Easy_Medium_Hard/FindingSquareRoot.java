@@ -21,7 +21,7 @@ public class FindingSquareRoot {
         while (low <= high) {
             int mid = (low + high) / 2;
             if ((long)mid * mid <= (long)n) {
-                index = Math.max(mid, index);
+                index = mid;
                 low = mid + 1;
             } else {
                 high = mid - 1;

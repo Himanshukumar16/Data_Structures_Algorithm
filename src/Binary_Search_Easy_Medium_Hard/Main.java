@@ -45,7 +45,9 @@ public class Main {
 //        PeakElement p = new PeakElement();
 //        p.peakElement(new int[]{1, 5, 1, 2, 1});
 
-        FindingSquareRoot f = new FindingSquareRoot();
-        f.findingSquareRoot(2147483647);
+//        FindingSquareRoot f = new FindingSquareRoot();
+//        f.findingSquareRoot(12);
+
+
     }
 }
