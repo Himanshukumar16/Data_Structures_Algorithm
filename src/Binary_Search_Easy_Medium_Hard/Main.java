@@ -48,6 +48,7 @@ public class Main {
 //        FindingSquareRoot f = new FindingSquareRoot();
 //        f.findingSquareRoot(12);
 
-
+        FindingNRoot f = new FindingNRoot();
+        f.findingNRoot(3,8);
     }
 }
