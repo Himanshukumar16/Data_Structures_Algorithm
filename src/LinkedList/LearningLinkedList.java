@@ -38,13 +38,3 @@ public class LearningLinkedList {
         return head;
     }
 }
-
-class Node {
-    int data;
-    Node next;
-
-    public Node(int node) {
-        this.data = node;
-        this.next = null;
-    }
-}
