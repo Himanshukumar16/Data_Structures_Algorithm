@@ -51,7 +51,7 @@ public class Main {
 //        FindingNRoot f = new FindingNRoot();
 //        f.findingNRoot(3,8);
 
-        KokoEatingBananas k = new KokoEatingBananas();
-        k.kokoEatingBananas(new int[]{30,11,23,4,20},5);
+//        KokoEatingBananas k = new KokoEatingBananas();
+//        k.kokoEatingBananas(new int[]{30,11,23,4,20},5);
     }
 }
