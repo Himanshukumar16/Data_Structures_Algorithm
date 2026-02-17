@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SinglyLL;
 
 public class InsertANode {
     public void insertANode(Node head, int data, int position) {

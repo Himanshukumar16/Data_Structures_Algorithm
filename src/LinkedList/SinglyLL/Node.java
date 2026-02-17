@@ -1,8 +1,8 @@
-package LinkedList;
+package LinkedList.SinglyLL;
 
 public class Node {
     int data;
-    LinkedList.Node next;
+    Node next;
 
     public Node(int node) {
         this.data = node;

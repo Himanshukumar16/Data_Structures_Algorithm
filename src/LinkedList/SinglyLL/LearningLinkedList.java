@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SinglyLL;
 
 public class LearningLinkedList {
     public void learningHowToMakeLinkedList(int[] arr, int key) {
