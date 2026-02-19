@@ -27,32 +27,49 @@ public class DeleteANode {
 
 //        Delete kth element of the DLL.
 
+//        Node temp = head;
+//        int index = 1;
+//        while (temp != null) {
+//            if (index == k) break;
+//            index++;
+//            temp = temp.next;
+//        }
+//        Node pre = temp.prev;
+//        Node front = temp.next;
+//        if (pre == null && front == null) {
+//            System.out.println("null");
+//            return;
+//        } if (pre == null) {
+//            head = head.next;
+//            head.prev = null;
+//            temp.next = null;
+//        } else if (front == null) {
+//            temp.prev.next = null;
+//            temp.prev = null;
+//        } else {
+//            temp.prev.next = temp.next;
+//            temp.next.prev = temp.prev;
+//            temp.next = null;
+//            temp.prev = null;
+//        }
+
+
+//        Delete before kth node.(given node != head).
+
         Node temp = head;
-        int index = 1;
         while (temp != null) {
-            if (index == k) break;
-            index++;
+            if (temp.data == k) break;
             temp = temp.next;
         }
-        Node pre = temp.prev;
-        Node front = temp.next;
-        if (pre == null && front == null) {
-            System.out.println("null");
-            return;
-        } if (pre == null) {
-            head = head.next;
-            head.prev = null;
-            temp.next = null;
-        } else if (front == null) {
+        if (temp.next == null) {
             temp.prev.next = null;
-            temp.prev = null;
+            temp.prev.prev = null;
         } else {
             temp.prev.next = temp.next;
             temp.next.prev = temp.prev;
-            temp.next = null;
             temp.prev = null;
+            temp.next = null;
         }
-
 
         temp = head;
         while (temp != null) {
