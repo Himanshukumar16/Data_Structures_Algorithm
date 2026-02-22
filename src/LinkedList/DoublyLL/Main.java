@@ -10,6 +10,6 @@ public class Main {
 //        d.deleteANode(new Node(2, new Node(4, new Node(5, new Node(6, new Node(7, new Node(8)))))), 9);
 
         InsertANode i = new InsertANode();
-        i.insertANode(new Node(2, new Node(4, new Node(5, new Node(6, new Node(7, new Node(8)))))),10, 1);
+        i.insertANode(new Node(2, new Node(4, new Node(5, new Node(6, new Node(7, new Node(8)))))),10, 8);
     }
 }
