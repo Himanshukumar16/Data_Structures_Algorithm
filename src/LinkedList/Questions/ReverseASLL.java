@@ -32,6 +32,8 @@ public class ReverseASLL {
 //        }
 //        head = pre;
 
+
+//        By recursion : TC -> O(n), SC -> O(n) {due to tech stack of recursion}.
         head = reverseUsingRecursion(head);
 
         temp = head;
