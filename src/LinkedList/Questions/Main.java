@@ -6,7 +6,10 @@ public class Main {
 //        MiddleOfALinkedList m = new MiddleOfALinkedList();
 //        m.middleOfALinkedList(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
 
-        ReverseASLL r = new ReverseASLL();
-        r.reverseASLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
+//        ReverseASLL r = new ReverseASLL();
+//        r.reverseASLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
+
+        DetectALoopInLL d = new DetectALoopInLL();
+        d.detectALoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))),40);
     }
 }
