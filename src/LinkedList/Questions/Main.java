@@ -9,7 +9,10 @@ public class Main {
 //        ReverseASLL r = new ReverseASLL();
 //        r.reverseASLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
 
-        DetectALoopInLL d = new DetectALoopInLL();
-        d.detectALoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))),40);
+//        DetectALoopInLL d = new DetectALoopInLL();
+//        d.detectALoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))),40);
+
+        StartingNodeOfLoopForLL s = new StartingNodeOfLoopForLL();
+        s.startingNodeOfLoopForLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
     }
 }
