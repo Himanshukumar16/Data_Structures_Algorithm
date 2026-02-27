@@ -18,7 +18,10 @@ public class Main {
 //        LengthOfLoopInLL l = new LengthOfLoopInLL();
 //        l.lengthOfLoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
 
-        PallindromeLL p = new PallindromeLL();
-        p.pallindromeLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(12, new NodeForSLL(11)))));
+//        PallindromeLL p = new PallindromeLL();
+//        p.pallindromeLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(12, new NodeForSLL(11)))));
+
+        OddEvenLL o = new OddEvenLL();
+        o.oddEvenLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
     }
 }
