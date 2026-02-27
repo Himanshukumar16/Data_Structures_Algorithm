@@ -12,7 +12,10 @@ public class Main {
 //        DetectALoopInLL d = new DetectALoopInLL();
 //        d.detectALoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))),40);
 
-        StartingNodeOfLoopForLL s = new StartingNodeOfLoopForLL();
-        s.startingNodeOfLoopForLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
+//        StartingNodeOfLoopForLL s = new StartingNodeOfLoopForLL();
+//        s.startingNodeOfLoopForLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
+
+        LengthOfLoopInLL l = new LengthOfLoopInLL();
+        l.lengthOfLoopInLL(new NodeForSLL(33, new NodeForSLL(40, new NodeForSLL(52, new NodeForSLL(61)))));
     }
 }
