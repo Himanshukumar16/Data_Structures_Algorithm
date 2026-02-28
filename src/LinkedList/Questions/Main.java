@@ -21,7 +21,10 @@ public class Main {
 //        PallindromeLL p = new PallindromeLL();
 //        p.pallindromeLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(12, new NodeForSLL(11)))));
 
-        OddEvenLL o = new OddEvenLL();
-        o.oddEvenLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
+//        OddEvenLL o = new OddEvenLL();
+//        o.oddEvenLL(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
+
+        RemoveNodeFromEnd r = new RemoveNodeFromEnd();
+        r.removeNodeFromEnd(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))),5);
     }
 }
