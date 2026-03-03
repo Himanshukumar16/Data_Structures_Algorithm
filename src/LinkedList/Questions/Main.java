@@ -1,9 +1,5 @@
 package LinkedList.Questions;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
 public class Main {
     public static void main(String[] args) {
         
@@ -31,7 +27,10 @@ public class Main {
 //        RemoveNodeFromEnd r = new RemoveNodeFromEnd();
 //        r.removeNodeFromEnd(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))),5);
 
-        DeleteMiddleNode d = new DeleteMiddleNode();
-        d.deleteMiddleNode(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
+//        DeleteMiddleNode d = new DeleteMiddleNode();
+//        d.deleteMiddleNode(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
+
+        SortLL s = new SortLL();
+        s.sortLL(new NodeForSLL(1, new NodeForSLL(12, new NodeForSLL(5, new NodeForSLL(4, new NodeForSLL(2))))));
     }
 }
