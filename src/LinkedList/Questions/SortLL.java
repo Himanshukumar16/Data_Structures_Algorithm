@@ -7,7 +7,7 @@ public class SortLL {
 
 //        TC -> O(n log n), SC -> O(n).
 
-//        List<Integer> lst = new ArrayList<>();
+        List<Integer> lst = new ArrayList<>();
 //        NodeForSLL temp = head;
 //        while (temp != null) {
 //            lst.add(temp.data);
@@ -30,6 +30,9 @@ public class SortLL {
         NodeForSLL temp = head;
 
         temp = head;
+
+
+//        for printing :->
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;
