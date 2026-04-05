@@ -30,10 +30,10 @@ public class Main {
 //        DeleteMiddleNode d = new DeleteMiddleNode();
 //        d.deleteMiddleNode(new NodeForSLL(11, new NodeForSLL(12, new NodeForSLL(13, new NodeForSLL(14, new NodeForSLL(15))))));
 
-//        SortLL s = new SortLL();
-//        s.sortLL(new NodeForSLL(1, new NodeForSLL(12, new NodeForSLL(5, new NodeForSLL(4, new NodeForSLL(2))))));
+        SortLL s = new SortLL();
+        s.sortLL(new NodeForSLL(1, new NodeForSLL(12, new NodeForSLL(5, new NodeForSLL(4, new NodeForSLL(2))))));
 
-        MergeSortedLL l = new MergeSortedLL();
-        l.mergeSortesLL(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
+//        MergeSortedLL l = new MergeSortedLL();
+//        l.mergeSortesLL(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
     }
 }
