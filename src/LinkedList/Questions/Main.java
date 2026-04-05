@@ -34,6 +34,6 @@ public class Main {
 //        s.sortLL(new NodeForSLL(1, new NodeForSLL(12, new NodeForSLL(5, new NodeForSLL(4, new NodeForSLL(2))))));
 
         MergeSortedLL l = new MergeSortedLL();
-        l.mergeSortesLL(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(4, new NodeForSLL(0, new NodeForSLL(3))));
+        l.mergeSortesLL(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
     }
 }
