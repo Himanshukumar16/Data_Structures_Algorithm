@@ -36,7 +36,11 @@ public class Main {
 //        MergeSortedLL l = new MergeSortedLL();
 //        l.mergeSortesLL(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
 
-        SortLLOf012 s = new SortLLOf012();
-        s.sortLLOf012(new NodeForSLL(2, new NodeForSLL(0)));
+//        SortLLOf012 s = new SortLLOf012();
+//        s.sortLLOf012(new NodeForSLL(2, new NodeForSLL(0)));
+
+//        got to this link for question : https://leetcode.com/problems/intersection-of-two-linked-lists/description/
+        IntersectionOfAll i = new IntersectionOfAll();
+        i.intersectionOfAll(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
     }
 }
