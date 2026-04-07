@@ -48,20 +48,21 @@ public class IntersectionOfAll {
 //            System.out.println(collisionPoint(head1, head2, lengthOf2 - lengthOf1));
 //        } else System.out.println(collisionPoint(head2, head1, lengthOf1 - lengthOf2));
 
-//        Tc -> O(), SC -> O(1).
+//        Tc -> O(n1+n2), SC -> O(1).
 
         NodeForSLL temp1 = head1;
         NodeForSLL temp2 = head2;
 
         while (temp1 !=  temp2) {
-            if (temp1 == null && temp2 == null) {
-                System.out.println("null");
+            temp1 = temp1.next;
+            temp2 = temp2.next;
+            if (temp1 == temp2) {
+                System.out.println(temp1);
                 return;
             }
             if (temp1 == null) temp1 = head2;
             if (temp2 == null) temp2 = head1;
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+
         }
         System.out.println(temp1);
     }
