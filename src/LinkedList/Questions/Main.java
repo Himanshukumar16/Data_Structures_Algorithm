@@ -40,7 +40,10 @@ public class Main {
 //        s.sortLLOf012(new NodeForSLL(2, new NodeForSLL(0)));
 
 //        got to this link for question : https://leetcode.com/problems/intersection-of-two-linked-lists/description/
-        IntersectionOfAll i = new IntersectionOfAll();
-        i.intersectionOfAll(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
+//        IntersectionOfAll i = new IntersectionOfAll();
+//        i.intersectionOfAll(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
+
+        Add1ToLL a = new Add1ToLL();
+        a.add1Toll(new NodeForSLL(9, new NodeForSLL(9, new NodeForSLL(9))));
     }
 }
