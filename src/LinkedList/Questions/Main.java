@@ -43,7 +43,10 @@ public class Main {
 //        IntersectionOfAll i = new IntersectionOfAll();
 //        i.intersectionOfAll(new NodeForSLL(1, new NodeForSLL(2, new NodeForSLL(3))), new NodeForSLL(0, new NodeForSLL(4, new NodeForSLL(5))));
 
-        Add1ToLL a = new Add1ToLL();
-        a.add1Toll(new NodeForSLL(9, new NodeForSLL(9, new NodeForSLL(9))));
+//        Add1ToLL a = new Add1ToLL();
+//        a.add1Toll(new NodeForSLL(9, new NodeForSLL(9, new NodeForSLL(9))));
+
+//        Add2ll a = new Add2ll();
+//        a.add2ll(new NodeForSLL(9, new NodeForSLL(9, new NodeForSLL(1))), new NodeForSLL(1));
     }
 }
