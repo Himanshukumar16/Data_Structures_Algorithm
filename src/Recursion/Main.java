@@ -9,7 +9,10 @@ public class Main {
 //        PrintNumbers p = new PrintNumbers();
 //        p.printNumbers();
 
-        ReverseArray r = new ReverseArray();
-        r.reverseArray(new int[]{1,2,3,4,5});
+//        ReverseArray r = new ReverseArray();
+//        r.reverseArray(new int[]{1,2,3,4,5});
+
+        IsPallindrome i = new IsPallindrome();
+        i.isPallindrome("meow");
     }
 }
