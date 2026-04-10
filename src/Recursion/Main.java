@@ -12,7 +12,10 @@ public class Main {
 //        ReverseArray r = new ReverseArray();
 //        r.reverseArray(new int[]{1,2,3,4,5});
 
-        IsPallindrome i = new IsPallindrome();
-        i.isPallindrome("meow");
+//        IsPallindrome i = new IsPallindrome();
+//        i.isPallindrome("meow");
+
+        Fibonnaci f = new Fibonnaci();
+        f.fibonnaci(0);
     }
 }
