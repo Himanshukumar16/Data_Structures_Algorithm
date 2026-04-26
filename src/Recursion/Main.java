@@ -15,7 +15,10 @@ public class Main {
 //        IsPallindrome i = new IsPallindrome();
 //        i.isPallindrome("meow");
 
-        Fibonnaci f = new Fibonnaci();
-        f.fibonnaci(0);
+//        Fibonnaci f = new Fibonnaci();
+//        f.fibonnaci(0);
+
+        Subset s = new Subset();
+        s.subset(new int[]{1,2,3});
     }
 }
