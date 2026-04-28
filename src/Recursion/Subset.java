@@ -6,6 +6,7 @@ import java.util.List;
 public class Subset {
     public void subset(int[] nums) {
 
+//        TC -> O(2^n) SC -> O(n).
         List<List<Integer>> outerList = new ArrayList<>();
         List<Integer> lst = new ArrayList<>();
 
