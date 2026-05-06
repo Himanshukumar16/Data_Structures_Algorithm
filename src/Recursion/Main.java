@@ -21,6 +21,10 @@ public class Main {
 //        Subset s = new Subset();
 //        s.subset(new int[]{1,2,3});
 
+        SubsequenceWithSumK s = new SubsequenceWithSumK();
+        s.subsequenceWithSumK(new int[]{1,2,3},3);
 
+        CountSubsequenceWithSumK c = new CountSubsequenceWithSumK();
+        c.countSubsequenceWithSumK(new int[]{1,2,3,4,2},4);
     }
 }
